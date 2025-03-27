@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery UI Dialog - Default functionality</title>
+   @*  <script src="https://code.jquery.com/jquery-3.7.1.js"></script> *@
+    <style>
+        .no-close .ui-dialog-titlebar-close {
+            display: none;
+        }
+
+        .dialog-container {
+          
+            position: relative;
+            z-index: 1000; /* Ensure it's higher than other elements */
+            width: 500px;
+            height: 500px;
+            
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+ 
+    <script>        
+        $(document).ready(function()  {  
+               jQuery.noConflict();
+               $("#dialog" ).dialog({
+                   dialogClass: "no-close",
+                   closeOnEscape: false,
+                   draggable: false,
+                   mineight: 600,
+                   minWidth: 600,
+                   modal:true, //other items on the page will be disabled, i.e., cannot be interacted with
+                   buttons:[
+                       {
+                           text: "Ok",
+                           icon: "ui-icon-heart", 
+                           click: function(){
+                                $("#dialog").dialog("close");
+                           }
+                       }
+                   ],
+                   autoOpen:false,
+                   appendTo: ".dialog-container", // To display the dialog with in the container
+                   position: { my: "center", at: "center", of: ".dialog-container" } //In the context of jQuery UI's position option, my, at, and of are used to control how the dialog is positioned relative to another element.
+               });
+                $("#btnDialog").click(function(){
+                   $("#dialog").dialog("open");
+               });            
+        });
+    </script>
+</head>
+<body>
+
+    <div class="dialog-container"> <!-- Dialog will be appended here --> </div>
+
+    <div id="dialog" title="Basic dialog">
+        <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+    </div> 
+    <button id="btnDialog">Open Dialog</button>
+</body>
+</html>
