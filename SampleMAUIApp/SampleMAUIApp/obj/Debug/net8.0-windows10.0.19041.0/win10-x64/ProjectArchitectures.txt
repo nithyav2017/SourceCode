@@ -1,0 +1,1 @@
+C:\Users\djaya\Documents\Nithya\DotNetCore\SampleMAUIApp\SampleMAUIApp\SampleMAUIApp.csproj;x64

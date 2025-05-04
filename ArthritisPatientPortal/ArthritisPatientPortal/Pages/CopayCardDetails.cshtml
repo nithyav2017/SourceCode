@@ -1,0 +1,24 @@
+﻿@page "{id}"
+@using ArthritisPatientPortal.Models
+@model ArthritisPatientPortal.Pages.CopayCardDetailsModel
+@{
+    ViewData["Title"] = "Copay Card Details";
+}
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <h3>Your Copay Card</h3>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <p><strong>Card Number:</strong> @Model.CopayCard.CardNumber</p>
+                    <p><strong>BIN:</strong> @Model.CopayCard.BinNumber</p>
+                    <p><strong>PCN:</strong> @Model.CopayCard.PcnNumber</p>
+                    <p><strong>Group:</strong> @Model.CopayCard.GroupNumber</p>
+                    <p><strong>Expiration Date:</strong>@Model.CopayCard.ExpirationDate.ToShortDateString()</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

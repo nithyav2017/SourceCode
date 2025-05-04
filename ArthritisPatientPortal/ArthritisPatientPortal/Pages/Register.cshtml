@@ -1,0 +1,84 @@
+﻿@page
+@model ArthritisPatientPortal.Pages.RegisterModel
+@{
+    ViewData["Title"] = "Patient Registration";
+}
+
+<div class="container">
+    <h2>Patient Registration</h2>
+    <form method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="mb-3">
+            <label asp-for="Patient.Pin" class="form-label">PIN</label>
+            <input asp-for="Patient.Pin" class="form-control" />
+            <span asp-validation-for="Patient.Pin" class="text-danger"></span>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col">
+                <label asp-for="Patient.FirstName" class="form-label">First Name</label>
+                <input asp-for="Patient.FirstName" class="form-control" />
+                <span asp-validation-for="Patient.FirstName" class="text-danger"></span>
+            </div>
+            <div class="col">
+                <label asp-for="Patient.LastName" class="form-label">Last Name</label>
+                <input asp-for="Patient.LastName" class="form-control" />
+                <span asp-validation-for="Patient.LastName" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Patient.DateOfBirth" class="form-label">Date of Birth</label>
+            <input type="date" asp-for="Patient.DateOfBirth" class="form-control" />
+            <span asp-validation-for="Patient.DateOfBirth" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Patient.Email" class="form-label">Email</label>
+            <input type="email" asp-for="Patient.Email" class="form-control" />
+            <span asp-validation-for="Patient.Email" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Patient.Phone" class="form-label">Phone</label>
+            <input type="tel" asp-for="Patient.Phone" class="form-control" />
+            <span asp-validation-for="Patient.Phone" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Patient.HcpSpecialty" class="form-label">Hcp Specialty</label>
+            <input type="tel" asp-for="Patient.HcpSpecialty" class="form-control" />
+            <span asp-validation-for="Patient.HcpSpecialty" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Patient.Indication" class="form-label">Indication</label>
+            <input type="tel" asp-for="Patient.Indication" class="form-control" />
+            <span asp-validation-for="Patient.Indication" class="text-danger"></span>
+        </div>
+       
+
+        <div class="mb-3">
+            <label asp-for="Patient.InsuranceType" class="form-label">Insurance Type</label>
+            <select asp-for="Patient.InsuranceType" asp-items="Html.GetEnumSelectList<ArthritisPatientPortal.Models.InsuranceType>()" class="form-select">
+                <option selected disabled value="">Select Insurance Type</option>
+            </select>
+            <span asp-validation-for="Patient.InsuranceType" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3 form-check">
+            <input type="checkbox" asp-for="Patient.EmailConsent" class="form-check-input" />
+            <label asp-for="Patient.EmailConsent" class="form-check-label">I consent to receive emails</label>
+        </div>
+
+        <div class="mb-3 form-check">
+            <input type="checkbox" asp-for="Patient.TextConsent" class="form-check-input" />
+            <label asp-for="Patient.TextConsent" class="form-check-label">I consent to receive text messages</label>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Register</button>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

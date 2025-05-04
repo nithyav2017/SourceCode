@@ -1,0 +1,32 @@
+﻿@page
+@model PatientInfo.Pages.RegisterModel
+@using PatientInfo.Models
+
+@{
+    <form method="post" asp-page="/Register">
+        <div style="margin-bottom:20px"><input asp-for="RegistrationViewModel.Email" placeholder="Enter User Name" /></div>
+        <div style="margin-bottom:20px"> <input asp-for="RegistrationViewModel.Password" placeholder="Enter Passowrd" /></div>
+        <div style="margin-bottom:20px"><input asp-for="RegistrationViewModel.ConfirmPassword" placeholder="Enter ConfirmPassword" /></div>
+        <div style="margin-bottom:20px"><input asp-for="RegistrationViewModel.PIN" placeholder="Enter a 4-digit PIN" /></div>
+        <div style="margin-bottom:20px"><input asp-for="RegistrationViewModel.DemographicInfo" placeholder="Enter demographic info" /></div>
+        <div style="margin-bottom:20px">
+            <select asp-for="RegistrationViewModel.HCPSpecialty">
+                <option>Rheumatology</option>
+                <option>Other</option>
+            </select>
+        </div>
+        <div style="margin-bottom:20px"><input asp-for="RegistrationViewModel.Indication" placeholder="Indication for Treatement" /></div>
+        <div style="margin-bottom:20px"> <input asp-for="RegistrationViewModel.InsuranceType" placeholder="Enter Insurance Type" /></div>
+        <div style="margin-bottom:20px">
+            <label>
+                <input asp-for="RegistrationViewModel.ConsentForEmail" type="checkbox" /> Consent For Email
+            </label>
+        </div>
+        <div style="margin-bottom:20px">
+            <label>
+                <input asp-for="RegistrationViewModel.ConsentForText" type="checkbox" /> Consent For Text
+            </label>
+        </div>
+        <button type="submit">Register</button>
+    </form>
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "ArthritisPatientPortal\\ArthritisPatientPortal.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "ArthtitisPatientPortalService\\ArthtitisPatientPortalService.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

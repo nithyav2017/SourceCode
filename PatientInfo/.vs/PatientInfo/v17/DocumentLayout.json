@@ -1,0 +1,275 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFEB0F4-A44F-4510-84C7-930C1AA51AB4}|PatientInfo\\PatientInfo.csproj|c:\\users\\djaya\\documents\\nithya\\dotnetcore\\patientinfo\\patientinfo\\data\\localdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FFEB0F4-A44F-4510-84C7-930C1AA51AB4}|PatientInfo\\PatientInfo.csproj|solutionrelative:patientinfo\\data\\localdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFEB0F4-A44F-4510-84C7-930C1AA51AB4}|PatientInfo\\PatientInfo.csproj|c:\\users\\djaya\\documents\\nithya\\dotnetcore\\patientinfo\\patientinfo\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FFEB0F4-A44F-4510-84C7-930C1AA51AB4}|PatientInfo\\PatientInfo.csproj|solutionrelative:patientinfo\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFEB0F4-A44F-4510-84C7-930C1AA51AB4}|PatientInfo\\PatientInfo.csproj|c:\\users\\djaya\\documents\\nithya\\dotnetcore\\patientinfo\\patientinfo\\pages\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FFEB0F4-A44F-4510-84C7-930C1AA51AB4}|PatientInfo\\PatientInfo.csproj|solutionrelative:patientinfo\\pages\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFEB0F4-A44F-4510-84C7-930C1AA51AB4}|PatientInfo\\PatientInfo.csproj|c:\\users\\djaya\\documents\\nithya\\dotnetcore\\patientinfo\\patientinfo\\models\\registrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FFEB0F4-A44F-4510-84C7-930C1AA51AB4}|PatientInfo\\PatientInfo.csproj|solutionrelative:patientinfo\\models\\registrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFEB0F4-A44F-4510-84C7-930C1AA51AB4}|PatientInfo\\PatientInfo.csproj|c:\\users\\djaya\\documents\\nithya\\dotnetcore\\patientinfo\\patientinfo\\models\\patientdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FFEB0F4-A44F-4510-84C7-930C1AA51AB4}|PatientInfo\\PatientInfo.csproj|solutionrelative:patientinfo\\models\\patientdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFEB0F4-A44F-4510-84C7-930C1AA51AB4}|PatientInfo\\PatientInfo.csproj|c:\\users\\djaya\\documents\\nithya\\dotnetcore\\patientinfo\\patientinfo\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FFEB0F4-A44F-4510-84C7-930C1AA51AB4}|PatientInfo\\PatientInfo.csproj|solutionrelative:patientinfo\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFEB0F4-A44F-4510-84C7-930C1AA51AB4}|PatientInfo\\PatientInfo.csproj|c:\\users\\djaya\\documents\\nithya\\dotnetcore\\patientinfo\\patientinfo\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FFEB0F4-A44F-4510-84C7-930C1AA51AB4}|PatientInfo\\PatientInfo.csproj|solutionrelative:patientinfo\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFEB0F4-A44F-4510-84C7-930C1AA51AB4}|PatientInfo\\PatientInfo.csproj|c:\\users\\djaya\\documents\\nithya\\dotnetcore\\patientinfo\\patientinfo\\data\\migrations\\20250422155331_identitysetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FFEB0F4-A44F-4510-84C7-930C1AA51AB4}|PatientInfo\\PatientInfo.csproj|solutionrelative:patientinfo\\data\\migrations\\20250422155331_identitysetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFEB0F4-A44F-4510-84C7-930C1AA51AB4}|PatientInfo\\PatientInfo.csproj|c:\\users\\djaya\\documents\\nithya\\dotnetcore\\patientinfo\\patientinfo\\pages\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FFEB0F4-A44F-4510-84C7-930C1AA51AB4}|PatientInfo\\PatientInfo.csproj|solutionrelative:patientinfo\\pages\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFEB0F4-A44F-4510-84C7-930C1AA51AB4}|PatientInfo\\PatientInfo.csproj|c:\\users\\djaya\\documents\\nithya\\dotnetcore\\patientinfo\\patientinfo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FFEB0F4-A44F-4510-84C7-930C1AA51AB4}|PatientInfo\\PatientInfo.csproj|solutionrelative:patientinfo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFEB0F4-A44F-4510-84C7-930C1AA51AB4}|PatientInfo\\PatientInfo.csproj|c:\\users\\djaya\\documents\\nithya\\dotnetcore\\patientinfo\\patientinfo\\data\\migrations\\20250421190253_addpatientdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FFEB0F4-A44F-4510-84C7-930C1AA51AB4}|PatientInfo\\PatientInfo.csproj|solutionrelative:patientinfo\\data\\migrations\\20250421190253_addpatientdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFEB0F4-A44F-4510-84C7-930C1AA51AB4}|PatientInfo\\PatientInfo.csproj|c:\\users\\djaya\\documents\\nithya\\dotnetcore\\patientinfo\\patientinfo\\pages\\error.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FFEB0F4-A44F-4510-84C7-930C1AA51AB4}|PatientInfo\\PatientInfo.csproj|solutionrelative:patientinfo\\pages\\error.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFEB0F4-A44F-4510-84C7-930C1AA51AB4}|PatientInfo\\PatientInfo.csproj|c:\\users\\djaya\\documents\\nithya\\dotnetcore\\patientinfo\\patientinfo\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FFEB0F4-A44F-4510-84C7-930C1AA51AB4}|PatientInfo\\PatientInfo.csproj|solutionrelative:patientinfo\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFEB0F4-A44F-4510-84C7-930C1AA51AB4}|PatientInfo\\PatientInfo.csproj|c:\\users\\djaya\\documents\\nithya\\dotnetcore\\patientinfo\\patientinfo\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FFEB0F4-A44F-4510-84C7-930C1AA51AB4}|PatientInfo\\PatientInfo.csproj|solutionrelative:patientinfo\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFEB0F4-A44F-4510-84C7-930C1AA51AB4}|PatientInfo\\PatientInfo.csproj|c:\\users\\djaya\\documents\\nithya\\dotnetcore\\patientinfo\\patientinfo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5FFEB0F4-A44F-4510-84C7-930C1AA51AB4}|PatientInfo\\PatientInfo.csproj|solutionrelative:patientinfo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LocalDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\PatientInfo\\Data\\LocalDbContext.cs",
+              "RelativeDocumentMoniker": "PatientInfo\\Data\\LocalDbContext.cs",
+              "ToolTip": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\PatientInfo\\Data\\LocalDbContext.cs*",
+              "RelativeToolTip": "PatientInfo\\Data\\LocalDbContext.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T18:04:39.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\PatientInfo\\Pages\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "PatientInfo\\Pages\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\PatientInfo\\Pages\\Register.cshtml.cs*",
+              "RelativeToolTip": "PatientInfo\\Pages\\Register.cshtml.cs*",
+              "ViewState": "AgIAACQAAAAAAAAAAAAUwEYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T19:15:59.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\PatientInfo\\Pages\\Register.cshtml",
+              "RelativeDocumentMoniker": "PatientInfo\\Pages\\Register.cshtml",
+              "ToolTip": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\PatientInfo\\Pages\\Register.cshtml",
+              "RelativeToolTip": "PatientInfo\\Pages\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T19:11:11.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\PatientInfo\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "PatientInfo\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\PatientInfo\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "PatientInfo\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T18:47:28.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250422155331_IdentitySetup.cs",
+              "DocumentMoniker": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\PatientInfo\\Data\\Migrations\\20250422155331_IdentitySetup.cs",
+              "RelativeDocumentMoniker": "PatientInfo\\Data\\Migrations\\20250422155331_IdentitySetup.cs",
+              "ToolTip": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\PatientInfo\\Data\\Migrations\\20250422155331_IdentitySetup.cs",
+              "RelativeToolTip": "PatientInfo\\Data\\Migrations\\20250422155331_IdentitySetup.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T16:38:45.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PatientDetails.cs",
+              "DocumentMoniker": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\PatientInfo\\Models\\PatientDetails.cs",
+              "RelativeDocumentMoniker": "PatientInfo\\Models\\PatientDetails.cs",
+              "ToolTip": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\PatientInfo\\Models\\PatientDetails.cs",
+              "RelativeToolTip": "PatientInfo\\Models\\PatientDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T18:46:15.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\PatientInfo\\Data\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "PatientInfo\\Data\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\PatientInfo\\Data\\ApplicationUser.cs",
+              "RelativeToolTip": "PatientInfo\\Data\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T18:47:54.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\PatientInfo\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "PatientInfo\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\PatientInfo\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "PatientInfo\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T19:06:50.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegistrationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\PatientInfo\\Models\\RegistrationViewModel.cs",
+              "RelativeDocumentMoniker": "PatientInfo\\Models\\RegistrationViewModel.cs",
+              "ToolTip": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\PatientInfo\\Models\\RegistrationViewModel.cs",
+              "RelativeToolTip": "PatientInfo\\Models\\RegistrationViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T19:23:04.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\PatientInfo\\Program.cs",
+              "RelativeDocumentMoniker": "PatientInfo\\Program.cs",
+              "ToolTip": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\PatientInfo\\Program.cs",
+              "RelativeToolTip": "PatientInfo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T18:58:30.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250421190253_AddPatientDetails.cs",
+              "DocumentMoniker": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\PatientInfo\\Data\\Migrations\\20250421190253_AddPatientDetails.cs",
+              "RelativeDocumentMoniker": "PatientInfo\\Data\\Migrations\\20250421190253_AddPatientDetails.cs",
+              "ToolTip": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\PatientInfo\\Data\\Migrations\\20250421190253_AddPatientDetails.cs",
+              "RelativeToolTip": "PatientInfo\\Data\\Migrations\\20250421190253_AddPatientDetails.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T19:02:55.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Error.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\PatientInfo\\Pages\\Error.cshtml.cs",
+              "RelativeDocumentMoniker": "PatientInfo\\Pages\\Error.cshtml.cs",
+              "ToolTip": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\PatientInfo\\Pages\\Error.cshtml.cs",
+              "RelativeToolTip": "PatientInfo\\Pages\\Error.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T19:16:40.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\PatientInfo\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "PatientInfo\\Pages\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\PatientInfo\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "PatientInfo\\Pages\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T16:13:07.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\PatientInfo\\appsettings.json",
+              "RelativeDocumentMoniker": "PatientInfo\\appsettings.json",
+              "ToolTip": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\PatientInfo\\appsettings.json",
+              "RelativeToolTip": "PatientInfo\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-21T18:55:22.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\PatientInfo\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "PatientInfo\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PatientInfo\\PatientInfo\\Pages\\Error.cshtml",
+              "RelativeToolTip": "PatientInfo\\Pages\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T19:16:37.678Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
