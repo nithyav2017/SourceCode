@@ -1,6 +1,0 @@
-@AhritisPatientPortalAPI_HostAddress = http://localhost:5112
-
-GET {{AhritisPatientPortalAPI_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

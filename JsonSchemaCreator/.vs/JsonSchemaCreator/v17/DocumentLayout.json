@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\JsonSchemaCreator\\",
+  "WorkspaceRootPath": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\JsonSchemaCreator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4B82437-5F9D-4A8C-9724-E2A451207DEF}|JsonSchemaCreator\\JsonSchemaCreator.csproj|c:\\users\\djaya\\documents\\nithya\\dotnetcore\\jsonschemacreator\\jsonschemacreator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D4B82437-5F9D-4A8C-9724-E2A451207DEF}|JsonSchemaCreator\\JsonSchemaCreator.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\jsonschemacreator\\jsonschemacreator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4B82437-5F9D-4A8C-9724-E2A451207DEF}|JsonSchemaCreator\\JsonSchemaCreator.csproj|solutionrelative:jsonschemacreator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,24 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\JsonSchemaCreator\\JsonSchemaCreator\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\JsonSchemaCreator\\JsonSchemaCreator\\Program.cs",
               "RelativeDocumentMoniker": "JsonSchemaCreator\\Program.cs",
-              "ToolTip": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\JsonSchemaCreator\\JsonSchemaCreator\\Program.cs",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\JsonSchemaCreator\\JsonSchemaCreator\\Program.cs",
               "RelativeToolTip": "JsonSchemaCreator\\Program.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAqwFkAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwFkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-30T23:33:43.185Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

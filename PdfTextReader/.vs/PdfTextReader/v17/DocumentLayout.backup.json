@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PdfTextReader\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41FB859E-0B53-4487-86CC-6D8618276832}|PdfTextReader\\PdfTextReader.pyproj|C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PdfTextReader\\PdfTextReader\\PdfTextReader.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{41FB859E-0B53-4487-86CC-6D8618276832}|PdfTextReader\\PdfTextReader.pyproj|solutionrelative:PdfTextReader\\PdfTextReader.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PdfTextReader.py",
+              "DocumentMoniker": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PdfTextReader\\PdfTextReader\\PdfTextReader.py",
+              "RelativeDocumentMoniker": "PdfTextReader\\PdfTextReader.py",
+              "ToolTip": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\PdfTextReader\\PdfTextReader\\PdfTextReader.py",
+              "RelativeToolTip": "PdfTextReader\\PdfTextReader.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-09T20:20:30.17Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
