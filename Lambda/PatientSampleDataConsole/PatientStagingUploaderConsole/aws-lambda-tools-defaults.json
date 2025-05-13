@@ -1,0 +1,12 @@
+{
+  "profile": "default",
+  "region": "us-east-2",
+  "configuration": "Release",
+  "function-runtime": "dotnet8",
+  "function-handler": "PatientStagingUploaderConsole::PatientStagingUploaderConsole.Function::FunctionHandler",
+  "framework": "net8.0",
+  "function-name": "PatientStagingUploaderConsole",
+  "function-description": "Lambda to process patient JSON from S3",
+  "function-timeout": 30,
+  "function-memory-size": 256
+}
