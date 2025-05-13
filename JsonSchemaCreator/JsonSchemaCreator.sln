@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34607.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonSchemaCreator", "JsonSchemaCreator\JsonSchemaCreator.csproj", "{D4B82437-5F9D-4A8C-9724-E2A451207DEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4B82437-5F9D-4A8C-9724-E2A451207DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B82437-5F9D-4A8C-9724-E2A451207DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B82437-5F9D-4A8C-9724-E2A451207DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B82437-5F9D-4A8C-9724-E2A451207DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {046914B2-4086-4306-8F14-252B152B5370}
+	EndGlobalSection
+EndGlobal
