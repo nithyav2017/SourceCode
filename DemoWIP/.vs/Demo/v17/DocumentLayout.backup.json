@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\djaya\\Documents\\Nithya\\Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D36228C7-2CD4-4A10-A274-E020C4C12199}|Demo\\Demo.csproj|c:\\users\\djaya\\documents\\nithya\\demo\\demo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D36228C7-2CD4-4A10-A274-E020C4C12199}|Demo\\Demo.csproj|solutionrelative:demo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36228C7-2CD4-4A10-A274-E020C4C12199}|Demo\\Demo.csproj|c:\\users\\djaya\\documents\\nithya\\demo\\demo\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D36228C7-2CD4-4A10-A274-E020C4C12199}|Demo\\Demo.csproj|solutionrelative:demo\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36228C7-2CD4-4A10-A274-E020C4C12199}|Demo\\Demo.csproj|c:\\users\\djaya\\documents\\nithya\\demo\\demo\\views\\home\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D36228C7-2CD4-4A10-A274-E020C4C12199}|Demo\\Demo.csproj|solutionrelative:demo\\views\\home\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36228C7-2CD4-4A10-A274-E020C4C12199}|Demo\\Demo.csproj|c:\\users\\djaya\\documents\\nithya\\demo\\demo\\demo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D36228C7-2CD4-4A10-A274-E020C4C12199}|Demo\\Demo.csproj|solutionrelative:demo\\demo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36228C7-2CD4-4A10-A274-E020C4C12199}|Demo\\Demo.csproj|c:\\users\\djaya\\documents\\nithya\\demo\\demo\\wwwroot\\js\\ui-grid.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D36228C7-2CD4-4A10-A274-E020C4C12199}|Demo\\Demo.csproj|solutionrelative:demo\\wwwroot\\js\\ui-grid.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36228C7-2CD4-4A10-A274-E020C4C12199}|Demo\\Demo.csproj|c:\\users\\djaya\\documents\\nithya\\demo\\demo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36228C7-2CD4-4A10-A274-E020C4C12199}|Demo\\Demo.csproj|solutionrelative:demo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36228C7-2CD4-4A10-A274-E020C4C12199}|Demo\\Demo.csproj|c:\\users\\djaya\\documents\\nithya\\demo\\demo\\wwwroot\\js\\worker.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D36228C7-2CD4-4A10-A274-E020C4C12199}|Demo\\Demo.csproj|solutionrelative:demo\\wwwroot\\js\\worker.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36228C7-2CD4-4A10-A274-E020C4C12199}|Demo\\Demo.csproj|c:\\users\\djaya\\documents\\nithya\\demo\\demo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D36228C7-2CD4-4A10-A274-E020C4C12199}|Demo\\Demo.csproj|solutionrelative:demo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36228C7-2CD4-4A10-A274-E020C4C12199}|Demo\\Demo.csproj|c:\\users\\djaya\\documents\\nithya\\demo\\demo\\wwwroot\\html\\page1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D36228C7-2CD4-4A10-A274-E020C4C12199}|Demo\\Demo.csproj|solutionrelative:demo\\wwwroot\\html\\page1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\djaya\\Documents\\Nithya\\Demo\\Demo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Demo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\djaya\\Documents\\Nithya\\Demo\\Demo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Demo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T17:39:03.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ui-grid.min.js",
+              "DocumentMoniker": "C:\\Users\\djaya\\Documents\\Nithya\\Demo\\Demo\\wwwroot\\js\\ui-grid.min.js",
+              "RelativeDocumentMoniker": "Demo\\wwwroot\\js\\ui-grid.min.js",
+              "ToolTip": "C:\\Users\\djaya\\Documents\\Nithya\\Demo\\Demo\\wwwroot\\js\\ui-grid.min.js",
+              "RelativeToolTip": "Demo\\wwwroot\\js\\ui-grid.min.js",
+              "ViewState": "AgIAADwAAAAAAAAAAIBJwEkAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-31T20:53:33.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Products.cshtml",
+              "DocumentMoniker": "C:\\Users\\djaya\\Documents\\Nithya\\Demo\\Demo\\Views\\Home\\Products.cshtml",
+              "RelativeDocumentMoniker": "Demo\\Views\\Home\\Products.cshtml",
+              "ToolTip": "C:\\Users\\djaya\\Documents\\Nithya\\Demo\\Demo\\Views\\Home\\Products.cshtml",
+              "RelativeToolTip": "Demo\\Views\\Home\\Products.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-29T17:02:03.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Demo.csproj",
+              "DocumentMoniker": "C:\\Users\\djaya\\Documents\\Nithya\\Demo\\Demo\\Demo.csproj",
+              "RelativeDocumentMoniker": "Demo\\Demo.csproj",
+              "ToolTip": "C:\\Users\\djaya\\Documents\\Nithya\\Demo\\Demo\\Demo.csproj",
+              "RelativeToolTip": "Demo\\Demo.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-29T17:04:07.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\djaya\\Documents\\Nithya\\Demo\\Demo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Demo\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\djaya\\Documents\\Nithya\\Demo\\Demo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Demo\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAkwC8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T16:59:23.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Worker.js",
+              "DocumentMoniker": "C:\\Users\\djaya\\Documents\\Nithya\\Demo\\Demo\\wwwroot\\js\\Worker.js",
+              "RelativeDocumentMoniker": "Demo\\wwwroot\\js\\Worker.js",
+              "ToolTip": "C:\\Users\\djaya\\Documents\\Nithya\\Demo\\Demo\\wwwroot\\js\\Worker.js",
+              "RelativeToolTip": "Demo\\wwwroot\\js\\Worker.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-22T16:33:55.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Page1.html",
+              "DocumentMoniker": "C:\\Users\\djaya\\Documents\\Nithya\\Demo\\Demo\\wwwroot\\Html\\Page1.html",
+              "RelativeDocumentMoniker": "Demo\\wwwroot\\Html\\Page1.html",
+              "ToolTip": "C:\\Users\\djaya\\Documents\\Nithya\\Demo\\Demo\\wwwroot\\Html\\Page1.html",
+              "RelativeToolTip": "Demo\\wwwroot\\Html\\Page1.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-21T19:17:34.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\djaya\\Documents\\Nithya\\Demo\\Demo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Demo\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\djaya\\Documents\\Nithya\\Demo\\Demo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Demo\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T19:10:03.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\djaya\\Documents\\Nithya\\Demo\\Demo\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Demo\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\djaya\\Documents\\Nithya\\Demo\\Demo\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Demo\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwFsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T18:24:00.159Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

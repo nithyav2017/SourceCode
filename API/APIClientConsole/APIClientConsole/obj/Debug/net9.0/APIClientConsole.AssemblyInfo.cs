@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APIClientConsole")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef496f6ccfe54151123728d0d5a1b976cd797552")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39a1cba5584ef7141f9dc5609038f24378433faf")]
 [assembly: System.Reflection.AssemblyProductAttribute("APIClientConsole")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APIClientConsole")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\APIClientConsole\\APIClientConsole\\APIClientConsole.csproj": {}
+    "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\API\\APIClientConsole\\APIClientConsole\\APIClientConsole.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\APIClientConsole\\APIClientConsole\\APIClientConsole.csproj": {
+    "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\API\\APIClientConsole\\APIClientConsole\\APIClientConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\APIClientConsole\\APIClientConsole\\APIClientConsole.csproj",
+        "projectUniqueName": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\API\\APIClientConsole\\APIClientConsole\\APIClientConsole.csproj",
         "projectName": "APIClientConsole",
-        "projectPath": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\APIClientConsole\\APIClientConsole\\APIClientConsole.csproj",
+        "projectPath": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\API\\APIClientConsole\\APIClientConsole\\APIClientConsole.csproj",
         "packagesPath": "C:\\Users\\nithy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\APIClientConsole\\APIClientConsole\\obj\\",
+        "outputPath": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\API\\APIClientConsole\\APIClientConsole\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
