@@ -439,7 +439,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -2205,16 +2205,6 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
-        }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
         }
       }
     },
@@ -2656,7 +2646,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -4422,16 +4412,6 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
-        }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
         }
       }
     },
@@ -4873,7 +4853,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -6639,16 +6619,6 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
-        }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
         }
       }
     },
@@ -7090,7 +7060,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -8856,16 +8826,6 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
-        }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
         }
       }
     },
@@ -9307,7 +9267,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -11073,16 +11033,6 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
-        }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
         }
       }
     },
@@ -11524,7 +11474,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -13290,16 +13240,6 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
-        }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
         }
       }
     },
@@ -13741,7 +13681,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -15507,16 +15447,6 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
-        }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
         }
       }
     },
@@ -15958,7 +15888,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -17725,16 +17655,6 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        }
       }
     },
     "net8.0-ios18.0": {
@@ -18151,20 +18071,10 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
         }
       }
     },
@@ -18582,20 +18492,10 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
         }
       }
     },
@@ -19013,20 +18913,10 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
         }
       }
     },
@@ -19444,20 +19334,10 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
         }
       }
     },
@@ -19875,20 +19755,10 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
         }
       }
     },
@@ -20306,20 +20176,10 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
         }
       }
     },
@@ -20737,20 +20597,10 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
         }
       }
     },
@@ -21168,20 +21018,10 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
         }
       }
     },
@@ -21599,20 +21439,10 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
         }
       }
     },
@@ -22030,20 +21860,10 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
         }
       }
     },
@@ -22461,20 +22281,10 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
         }
       }
     },
@@ -22892,20 +22702,10 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
         }
       }
     },
@@ -23323,20 +23123,10 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
         }
       }
     },
@@ -23754,20 +23544,10 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
         }
       }
     },
@@ -24185,20 +23965,10 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
         }
       }
     },
@@ -24616,20 +24386,10 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
         }
       }
     },
@@ -25221,16 +24981,6 @@
             "rid": "win10-x86"
           }
         }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        }
       }
     },
     "net8.0-windows10.0.19041/android-arm": {
@@ -25780,16 +25530,6 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
-        }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
         }
       }
     },
@@ -26341,16 +26081,6 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        }
       }
     },
     "net8.0-windows10.0.19041/android-x64": {
@@ -26900,16 +26630,6 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
-        }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
         }
       }
     },
@@ -27461,16 +27181,6 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        }
       }
     },
     "net8.0-windows10.0.19041/iossimulator-x64": {
@@ -28021,16 +27731,6 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        }
       }
     },
     "net8.0-windows10.0.19041/maccatalyst-x64": {
@@ -28580,16 +28280,6 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
-        }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
         }
       }
     },
@@ -29146,16 +28836,6 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
-        }
-      },
-      "clsArthritisPatient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clsArthritisPatient.dll": {}
         }
       }
     }
@@ -30517,10 +30197,10 @@
         "microsoft.maui.resizetizer.nuspec"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/8.0.12": {
-      "sha512": "FV4HnQ3JI15PHnJ5PGTbz+rYvrih42oLi/7UMIshNwCwUZhTq13UzrggtXk4ygrcMcN+4jsS6hhshx2p/Zd0ig==",
+    "Microsoft.NET.ILLink.Tasks/8.0.15": {
+      "sha512": "s4eXlcRGyHeCgFUGQnhq0e/SCHBPp0jOHgMqZg3fQ2OCHJSm1aOUhI6RFWuVIcEb9ig2WgI2kWukk8wu72EbUQ==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/8.0.12",
+      "path": "microsoft.net.illink.tasks/8.0.15",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -30534,7 +30214,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.8.0.12.nupkg.sha512",
+        "microsoft.net.illink.tasks.8.0.15.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -33453,61 +33133,56 @@
         "xamarin.kotlinx.coroutines.core.jvm.1.7.2.1.nupkg.sha512",
         "xamarin.kotlinx.coroutines.core.jvm.nuspec"
       ]
-    },
-    "clsArthritisPatient/1.0.0": {
-      "type": "project",
-      "path": "../clsArthritisPatient/clsArthritisPatient.csproj",
-      "msbuildProject": "../clsArthritisPatient/clsArthritisPatient.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-android34.0": [
+      "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SampleMAUIApp\\clsArthritisPatient\\clsArthritisPatient.csproj",
       "Microsoft.Extensions.Logging.Debug >= 8.0.1",
       "Microsoft.Maui.Controls >= 8.0.100",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.12",
-      "clsArthritisPatient >= 1.0.0"
+      "Microsoft.NET.ILLink.Tasks >= 8.0.15"
     ],
     "net8.0-ios18.0": [
+      "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SampleMAUIApp\\clsArthritisPatient\\clsArthritisPatient.csproj",
       "Microsoft.Extensions.Logging.Debug >= 8.0.1",
       "Microsoft.Maui.Controls >= 8.0.100",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.12",
-      "clsArthritisPatient >= 1.0.0"
+      "Microsoft.NET.ILLink.Tasks >= 8.0.15"
     ],
     "net8.0-maccatalyst18.0": [
+      "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SampleMAUIApp\\clsArthritisPatient\\clsArthritisPatient.csproj",
       "Microsoft.Extensions.Logging.Debug >= 8.0.1",
       "Microsoft.Maui.Controls >= 8.0.100",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.12",
-      "clsArthritisPatient >= 1.0.0"
+      "Microsoft.NET.ILLink.Tasks >= 8.0.15"
     ],
     "net8.0-windows10.0.19041": [
+      "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SampleMAUIApp\\clsArthritisPatient\\clsArthritisPatient.csproj",
       "Microsoft.Extensions.Logging.Debug >= 8.0.1",
       "Microsoft.Maui.Controls >= 8.0.100",
-      "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
-      "clsArthritisPatient >= 1.0.0"
+      "Microsoft.Maui.Controls.Compatibility >= 8.0.100"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\djaya\\.nuget\\packages\\": {},
+    "C:\\Users\\nithy\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\SampleMAUIApp\\SampleMAUIApp\\SampleMAUIApp.csproj",
+      "projectUniqueName": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SampleMAUIApp\\SampleMAUIApp\\SampleMAUIApp.csproj",
       "projectName": "SampleMAUIApp",
-      "projectPath": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\SampleMAUIApp\\SampleMAUIApp\\SampleMAUIApp.csproj",
-      "packagesPath": "C:\\Users\\djaya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\SampleMAUIApp\\SampleMAUIApp\\obj\\",
+      "projectPath": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SampleMAUIApp\\SampleMAUIApp\\SampleMAUIApp.csproj",
+      "packagesPath": "C:\\Users\\nithy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SampleMAUIApp\\SampleMAUIApp\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\djaya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nithy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33526,32 +33201,32 @@
         "net8.0-android34.0": {
           "targetAlias": "net8.0-android",
           "projectReferences": {
-            "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\SampleMAUIApp\\clsArthritisPatient\\clsArthritisPatient.csproj": {
-              "projectPath": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\SampleMAUIApp\\clsArthritisPatient\\clsArthritisPatient.csproj"
+            "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SampleMAUIApp\\clsArthritisPatient\\clsArthritisPatient.csproj": {
+              "projectPath": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SampleMAUIApp\\clsArthritisPatient\\clsArthritisPatient.csproj"
             }
           }
         },
         "net8.0-ios18.0": {
           "targetAlias": "net8.0-ios",
           "projectReferences": {
-            "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\SampleMAUIApp\\clsArthritisPatient\\clsArthritisPatient.csproj": {
-              "projectPath": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\SampleMAUIApp\\clsArthritisPatient\\clsArthritisPatient.csproj"
+            "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SampleMAUIApp\\clsArthritisPatient\\clsArthritisPatient.csproj": {
+              "projectPath": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SampleMAUIApp\\clsArthritisPatient\\clsArthritisPatient.csproj"
             }
           }
         },
         "net8.0-maccatalyst18.0": {
           "targetAlias": "net8.0-maccatalyst",
           "projectReferences": {
-            "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\SampleMAUIApp\\clsArthritisPatient\\clsArthritisPatient.csproj": {
-              "projectPath": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\SampleMAUIApp\\clsArthritisPatient\\clsArthritisPatient.csproj"
+            "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SampleMAUIApp\\clsArthritisPatient\\clsArthritisPatient.csproj": {
+              "projectPath": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SampleMAUIApp\\clsArthritisPatient\\clsArthritisPatient.csproj"
             }
           }
         },
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
           "projectReferences": {
-            "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\SampleMAUIApp\\clsArthritisPatient\\clsArthritisPatient.csproj": {
-              "projectPath": "C:\\Users\\djaya\\Documents\\Nithya\\DotNetCore\\SampleMAUIApp\\clsArthritisPatient\\clsArthritisPatient.csproj"
+            "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SampleMAUIApp\\clsArthritisPatient\\clsArthritisPatient.csproj": {
+              "projectPath": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SampleMAUIApp\\clsArthritisPatient\\clsArthritisPatient.csproj"
             }
           }
         }
@@ -33566,7 +33241,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0-android34.0": {
@@ -33587,7 +33262,7 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.12, )",
+            "version": "[8.0.15, )",
             "autoReferenced": true
           }
         },
@@ -33605,23 +33280,23 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.Android.Ref.34",
-            "version": "[34.0.154, 34.0.154]"
+            "version": "[34.0.147, 34.0.147]"
           },
           {
             "name": "Microsoft.Android.Runtime.34.android-arm",
-            "version": "[34.0.154, 34.0.154]"
+            "version": "[34.0.147, 34.0.147]"
           },
           {
             "name": "Microsoft.Android.Runtime.34.android-arm64",
-            "version": "[34.0.154, 34.0.154]"
+            "version": "[34.0.147, 34.0.147]"
           },
           {
             "name": "Microsoft.Android.Runtime.34.android-x64",
-            "version": "[34.0.154, 34.0.154]"
+            "version": "[34.0.147, 34.0.147]"
           },
           {
             "name": "Microsoft.Android.Runtime.34.android-x86",
-            "version": "[34.0.154, 34.0.154]"
+            "version": "[34.0.147, 34.0.147]"
           }
         ],
         "frameworkReferences": {
@@ -33632,7 +33307,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       },
       "net8.0-ios18.0": {
         "targetAlias": "net8.0-ios",
@@ -33652,7 +33327,7 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.12, )",
+            "version": "[8.0.15, )",
             "autoReferenced": true
           }
         },
@@ -33670,11 +33345,11 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.iOS.Ref.net8.0_18.0",
-            "version": "[18.0.8324, 18.0.8324]"
+            "version": "[18.0.8319, 18.0.8319]"
           },
           {
             "name": "Microsoft.iOS.Runtime.iossimulator-x64.net8.0_18.0",
-            "version": "[18.0.8324, 18.0.8324]"
+            "version": "[18.0.8319, 18.0.8319]"
           }
         ],
         "frameworkReferences": {
@@ -33685,7 +33360,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       },
       "net8.0-maccatalyst18.0": {
         "targetAlias": "net8.0-maccatalyst",
@@ -33705,7 +33380,7 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.12, )",
+            "version": "[8.0.15, )",
             "autoReferenced": true
           }
         },
@@ -33724,15 +33399,11 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.MacCatalyst.Ref.net8.0_18.0",
-            "version": "[18.0.8324, 18.0.8324]"
+            "version": "[18.0.8319, 18.0.8319]"
           },
           {
             "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64.net8.0_18.0",
-            "version": "[18.0.8324, 18.0.8324]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Runtime.Mono.maccatalyst-x64",
-            "version": "[8.0.15, 8.0.15]"
+            "version": "[18.0.8319, 18.0.8319]"
           }
         ],
         "frameworkReferences": {
@@ -33743,7 +33414,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       },
       "net8.0-windows10.0.19041": {
         "targetAlias": "net8.0-windows10.0.19041.0",
@@ -33786,7 +33457,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
@@ -33812,5 +33483,47 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SampleMAUIApp\\clsArthritisPatient\\clsArthritisPatient.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SampleMAUIApp\\clsArthritisPatient\\clsArthritisPatient.csproj",
+      "targetGraphs": [
+        "net8.0-android34.0",
+        "net8.0-android34.0/android-arm",
+        "net8.0-android34.0/android-arm64",
+        "net8.0-android34.0/android-x64",
+        "net8.0-android34.0/android-x86",
+        "net8.0-android34.0/iossimulator-x64",
+        "net8.0-android34.0/maccatalyst-x64",
+        "net8.0-android34.0/win10-x64",
+        "net8.0-ios18.0",
+        "net8.0-ios18.0/android-arm",
+        "net8.0-ios18.0/android-arm64",
+        "net8.0-ios18.0/android-x64",
+        "net8.0-ios18.0/android-x86",
+        "net8.0-ios18.0/iossimulator-x64",
+        "net8.0-ios18.0/maccatalyst-x64",
+        "net8.0-ios18.0/win10-x64",
+        "net8.0-maccatalyst18.0",
+        "net8.0-maccatalyst18.0/android-arm",
+        "net8.0-maccatalyst18.0/android-arm64",
+        "net8.0-maccatalyst18.0/android-x64",
+        "net8.0-maccatalyst18.0/android-x86",
+        "net8.0-maccatalyst18.0/iossimulator-x64",
+        "net8.0-maccatalyst18.0/maccatalyst-x64",
+        "net8.0-maccatalyst18.0/win10-x64",
+        "net8.0-windows10.0.19041",
+        "net8.0-windows10.0.19041/android-arm",
+        "net8.0-windows10.0.19041/android-arm64",
+        "net8.0-windows10.0.19041/android-x64",
+        "net8.0-windows10.0.19041/android-x86",
+        "net8.0-windows10.0.19041/iossimulator-x64",
+        "net8.0-windows10.0.19041/maccatalyst-x64",
+        "net8.0-windows10.0.19041/win10-x64"
+      ]
+    }
+  ]
 }

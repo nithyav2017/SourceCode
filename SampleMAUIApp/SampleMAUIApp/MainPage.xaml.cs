@@ -1,4 +1,4 @@
-﻿using clsArthritisPatient;
+﻿using clsPatient;
 using System.Text.Json;
 
 namespace SampleMAUIApp
