@@ -1,0 +1,4 @@
+C:\Users\nithy\Documents\Work\UPWork\upwork files\ITSP\SoapCore_v2\SoapCore\ClientApplication_2\obj\Debug\netcoreapp2.0\ClientApplication_2.csprojResolveAssemblyReference.cache
+C:\Users\nithy\Documents\Work\UPWork\upwork files\ITSP\SoapCore_v2\SoapCore\ClientApplication_2\obj\Debug\netcoreapp2.0\ClientApplication_2.csproj.CoreCompileInputs.cache
+C:\Users\nithy\Documents\Work\UPWork\upwork files\ITSP\SoapCore_v2\SoapCore\ClientApplication_2\obj\Debug\netcoreapp2.0\ClientApplication_2.AssemblyInfoInputs.cache
+C:\Users\nithy\Documents\Work\UPWork\upwork files\ITSP\SoapCore_v2\SoapCore\ClientApplication_2\obj\Debug\netcoreapp2.0\ClientApplication_2.AssemblyInfo.cs

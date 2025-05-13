@@ -1,0 +1,183 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Nithya\\Documents\\Nithya\\Upwork\\ITServiceProvider\\Demos\\SoapCore_v2\\SoapCore\\Services\\Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Nithya\\Documents\\Nithya\\Upwork\\ITServiceProvider\\Demos\\SoapCore_v2\\SoapCore\\Services.DataContract\\Services.DataContract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nithya\\Documents\\Nithya\\Upwork\\ITServiceProvider\\Demos\\SoapCore_v2\\SoapCore\\Services.DataContract\\Services.DataContract.csproj",
+        "projectName": "Services.DataContract",
+        "projectPath": "C:\\Users\\Nithya\\Documents\\Nithya\\Upwork\\ITServiceProvider\\Demos\\SoapCore_v2\\SoapCore\\Services.DataContract\\Services.DataContract.csproj",
+        "packagesPath": "C:\\Users\\Nithya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nithya\\Documents\\Nithya\\Upwork\\ITServiceProvider\\Demos\\SoapCore_v2\\SoapCore\\Services.DataContract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nithya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Nithya\\Documents\\Nithya\\Upwork\\ITServiceProvider\\Demos\\SoapCore_v2\\SoapCore\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nithya\\Documents\\Nithya\\Upwork\\ITServiceProvider\\Demos\\SoapCore_v2\\SoapCore\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "C:\\Users\\Nithya\\Documents\\Nithya\\Upwork\\ITServiceProvider\\Demos\\SoapCore_v2\\SoapCore\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\Nithya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nithya\\Documents\\Nithya\\Upwork\\ITServiceProvider\\Demos\\SoapCore_v2\\SoapCore\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nithya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "C:\\Users\\Nithya\\Documents\\Nithya\\Upwork\\ITServiceProvider\\Demos\\SoapCore_v2\\SoapCore\\Services.DataContract\\Services.DataContract.csproj": {
+                "projectPath": "C:\\Users\\Nithya\\Documents\\Nithya\\Upwork\\ITServiceProvider\\Demos\\SoapCore_v2\\SoapCore\\Services.DataContract\\Services.DataContract.csproj"
+              },
+              "C:\\Users\\Nithya\\Documents\\Nithya\\Upwork\\ITServiceProvider\\Demos\\SoapCore_v2\\SoapCore\\ZipCode.Data\\ZipCode.Data.csproj": {
+                "projectPath": "C:\\Users\\Nithya\\Documents\\Nithya\\Upwork\\ITServiceProvider\\Demos\\SoapCore_v2\\SoapCore\\ZipCode.Data\\ZipCode.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "System.ServiceModel.Primitives": {
+              "target": "Package",
+              "version": "[4.4.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Nithya\\Documents\\Nithya\\Upwork\\ITServiceProvider\\Demos\\SoapCore_v2\\SoapCore\\ZipCode.Data\\ZipCode.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nithya\\Documents\\Nithya\\Upwork\\ITServiceProvider\\Demos\\SoapCore_v2\\SoapCore\\ZipCode.Data\\ZipCode.Data.csproj",
+        "projectName": "ZipCode.Data",
+        "projectPath": "C:\\Users\\Nithya\\Documents\\Nithya\\Upwork\\ITServiceProvider\\Demos\\SoapCore_v2\\SoapCore\\ZipCode.Data\\ZipCode.Data.csproj",
+        "packagesPath": "C:\\Users\\Nithya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nithya\\Documents\\Nithya\\Upwork\\ITServiceProvider\\Demos\\SoapCore_v2\\SoapCore\\ZipCode.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nithya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
