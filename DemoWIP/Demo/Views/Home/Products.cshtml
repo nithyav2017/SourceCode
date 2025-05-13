@@ -1,0 +1,223 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="excelApp">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel Grid in AngularJS</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-grid/4.8.3/ui-grid.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-grid/4.12.7/ui-grid.min.js"></script>
+   @*   <script src="~/js/ui-grid.min.js"></script> *@
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-grid/4.12.7/ui-grid.edit.min.js"></script>
+  @*   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.2/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script> *@
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.68/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.68/vfs_fonts.js"></script>
+
+    <style>
+       
+        /* Custom CSS for header row */
+        .ui-grid-header-cell {
+            background-color: #0a58ca; /* Orange background color for header cells */
+            color: #ffffff; /* White text color for header cells */
+        }
+        /* Custom CSS for footer row */
+        .ui-grid-pager-panel {
+            background-color: #0a58ca; /* Dark blue background color for footer cells */
+            color: #ffffff; /* White text color for footer cells */
+        }
+
+        .custom-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #f8b400; /* Custom header background color */
+            color: #ffffff; /* Custom header text color */
+        }
+
+        .custom-footer {
+            background-color: #004085;
+            color: #ffffff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .ui-grid-footer-panel {
+            background-color: #004085;
+            color: #ffffff;
+        }
+
+        .custom-footer-button {
+            margin-left: 60px;
+            color: #f8b400;
+            background-color: #ffffff;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body ng-controller="ExcelCtrl">
+    <div style="margin-bottom: 20px">
+        <input type="file" id="excelFile" accept=".xls,.xlsx" />   
+        <button ng-click="uploadFile()">Upload</button>
+    </div>
+
+    <div id="ProductGrid" class="grid-item grid" 
+        ui-grid="gridOptions" 
+        ui-grid-resize-columns ui-grid-move-columns ui-grid-auto-resize ui-grid-pagination   
+        style="visibility:hidden"></div>
+    @* 
+    <div class="custom-footer">
+        <span>Footer Content</span>
+        <button ng-click="exportToPDF()">Export as PDF</button>
+    </div>
+ *@
+    <script type="text/ng-template" id="customFooterTemplate">
+        <div class="ui-grid-footer-panel">
+            <div class="ui-grid-footer-info ui-grid-grid-footer-info">
+                <div class="ui-grid-pager-container">
+                    <div class="ui-grid-pager-panel ng-scope" ui-grid-pager="" ng-show="grid.options.enablePaginationControls">
+                        <div role="navigation" class="ui-grid-pager-container">
+                        <!-- Existing Footer Content -->
+                        <div class="ui-grid-pager-control">
+                            <span class="ui-grid-pager-control-first">First</span>
+                            <span class="ui-grid-pager-control-previous">Previous</span>
+                            <input type="number" class="ui-grid-pager-control-input" ng-model="grid.appScope.currentPage" ng-change="grid.appScope.changePage()" />
+                            <span class="ui-grid-pager-control-next">Next</span>
+                            <span class="ui-grid-pager-control-last">Last</span>
+                        </div>
+                        <!-- Custom Export Button -->
+                           <button class="custom-footer-button" ng-click="grid.appScope.exportToPDF()">Export as PDF</button>
+                        </div>
+                    </div>
+               
+                <div class="ui-grid-pager-statistics">
+                    <span>totalItems: {{grid.options.totalItems}} / items per page: {{grid.options.paginationPageSize}}</span>
+                </div>
+                </div>
+            </div>
+        </div>
+    </script>    <script>
+           
+        var app = angular.module('excelApp', ['ui.grid','ui.grid.edit','ui.grid.pagination', 'ui.grid.resizeColumns', 'ui.grid.moveColumns', 'ui.grid.autoResize']);
+           
+        app.controller('ExcelCtrl', ['$scope', '$http', function($scope, $http) {
+           
+            $scope.gridOptions = {
+                enableSorting: true,
+                enableFiltering: true,
+                enableCellEditOnFocus: true,
+                columnDefs: [],
+                data: [] ,
+                enableGridMenu: true,
+                gridMenuCustomItems: [
+                    {
+                        title: 'Export as PDF',
+                        action: function() {
+                            $scope.exportToPDF();
+                        },
+                        order: 210
+                    }
+                ]
+            };
+             
+            $scope.uploadFile = function() {
+                var file = document.getElementById('excelFile').files[0];
+                var fileExtension = file.name.split('.').pop().toLowerCase();
+                if (fileExtension !== 'xlsx') {
+                    console.error('Upload failed: Only .xls files are allowed.');
+                    alert('Upload failed: Only .xls files are allowed.');
+                    return;
+                }
+                var formData = new FormData();
+                formData.append('file', file);
+
+                $http.post('/Home/Upload', formData, {
+                    headers: { 'Content-Type': undefined },
+                    transformRequest: angular.identity
+                }).then(function(response) {
+                    var excelData = response.data;
+                    if (excelData && excelData.length > 0) {
+                        $("#ProductGrid").css('visibility','visible');
+                        $scope.gridOptions.columnDefs = Object.keys(excelData[0]).map(function(key) {
+                            // var maxLength = Math.max.apply(null, excelData.map(function(item) {
+                            //     return item[key] ? item[key].toString().length : 0;
+                            // }));
+                           //  if( key == 'name' || key == 'safetystocklevel')
+                           //  {
+                                  
+                                  return { name: key, field: key , enableCellEdit: true, editableCellTemplate: 'ui-grid/cellEditor' };
+                          //   }
+                          //   else
+                           //  {
+                           //       return { name: key, field: key  };
+                           //  }
+                        });
+                        $scope.gridOptions.data = excelData;
+                   //     $scope.refreshGrid();
+                    }
+                }, function(error) {
+                    console.error('Upload failed:', error);
+                });                                  
+
+            };
+
+            $scope.exportToPDF = function(){
+                try
+                {                   
+                    var columns = $scope.gridOptions.columnDefs.map(function(colDef) {
+                    return { text: colDef.displayName || colDef.name, style: 'tableHeader' };                    
+                    });
+                    console.log(columns);
+                    var rows = $scope.gridOptions.data.map(function(row) {
+                    return $scope.gridOptions.columnDefs.map(function(colDef) {
+                        return row[colDef.field];
+                    });
+                    });                    
+                    var docDefinition = {
+                         content: [
+                        { text: 'Products List', style: 'productHeader' },
+                        {
+                            style: 'productData',
+                            table: {
+                                headerRows: 1,
+                                body: [
+                                    columns,
+                                    ...rows
+                                ]
+                            },
+                            layout: 'lightHorizontalLines'
+                        }
+                        ],
+                        styles: {
+                        productHeader: {
+                            fontSize: 18,
+                            bold: true,
+                            margin: [0, 0, 0, 10]
+                        },
+                        productData: {
+                            margin: [0, 5, 0, 15]
+                        },
+                        tableHeader: {
+                            bold: true,
+                            fontSize: 13,
+                            color: 'black'
+                        }
+                        }
+                    };
+                      pdfMake.createPdf(docDefinition).download('grid.pdf');
+                    } catch (error) {
+                       console.error('Error generating PDF:', error);
+               }
+               };
+            
+        }]);
+    </script>
+</body>
+</html>

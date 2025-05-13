@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery UI Dialog - Default functionality</title>
+   @*  <script src="https://code.jquery.com/jquery-3.7.1.js"></script> *@
+    <style>
+        .no-close .ui-dialog-titlebar-close {
+            display: none;
+        }
+
+        .dialog-container {
+          
+            position: relative;
+            z-index: 1000; /* Ensure it's higher than other elements */
+            width: 500px;
+            height: 500px;
+            
+        }
+
+        .small {
+            width: 100px; /* Adjust the size as needed */
+        }
+
+        .large {
+            width: 300px; /* Adjust the size as needed */
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+ 
+    <script>        
+        $(document).ready(function()  {  
+               jQuery.noConflict();
+                $(document).on('mouseenter', '.hoverable', function() {
+                        $(this).css('background-color', 'yellow');
+                    });
+
+                 // Attach a mouseleave event to revert the background color
+                $(document).on('mouseleave', '.hoverable', function() {
+                    $(this).css('background-color', '');
+                });
+
+                  $("#img1").click(function() {
+                       $(this).toggleClass("small large");                        
+                  });
+
+                  $("#img2").click(function() {                   
+                        var $this = $(this);
+                        if ($this.hasClass("large")) {
+                            $this.fadeOut(500, function() {
+                                $this.removeClass("large").addClass("small").fadeIn(500);
+                            });
+                        } else {
+                            $this.fadeOut(500, function() {
+                                $this.removeClass("small").addClass("large").fadeIn(500);
+                            });
+                        }
+                  });
+
+               $("#dialog" ).dialog({
+                   dialogClass: "no-close",
+                   closeOnEscape: false,
+                   draggable: false,
+                   mineight: 600,
+                   minWidth: 600,
+                   modal:true, //other items on the page will be disabled, i.e., cannot be interacted with
+                   buttons:[
+                       {
+                           text: "Ok",
+                           icon: "ui-icon-heart", 
+                           click: function(){
+                                $("#dialog").dialog("close");
+                           }
+                       }
+                   ],
+                   autoOpen:false,
+                   appendTo: ".dialog-container", // To display the dialog with in the container
+                   position: { my: "center", at: "center", of: ".dialog-container" } //In the context of jQuery UI's position option, my, at, and of are used to control how the dialog is positioned relative to another element.
+               });
+                $("#btnDialog").click(function(){
+                   $("#dialog").dialog("open");
+               });  
+               
+               document.addEventListener('DOMContentLoaded', function() {
+               if (window.Worker){
+                   const worker = new Worker('worker.js');
+
+                   if (window.Worker) { 
+                       
+                       const worker = new Worker('worker.js');                   
+                       document.getElementById('startWorker').addEventListener('click', function() {
+                           alert();
+                           const data = Array.from({ length: 1000000 }, (_, i) => i + 1);
+                           worker.postMessage(data);
+
+                           worker.onmessage = function(event) {
+                               document.getElementById('result').textContent = 'Sum: ' + event.data;
+                           };
+                       });
+                       }
+                       else
+                       {
+                           console.log('Your browser doesn\'t support Web Workers.');
+                       }
+                       }
+                       });
+        });
+    </script>
+</head>
+<body>
+
+    <div class="dialog-container"> <!-- Dialog will be appended here --> </div>
+
+    <div id="dialog" title="Basic dialog">
+        <p>Please Click 'x" to close</p>
+    </div>
+    <table>
+        <tr>
+            <td><button id="btnDialog">Open Dialog</button></td>
+            <td><button id="startWorker">Start Worker</button></td>
+        </tr>
+        <tr>
+            <td>
+                <div id="result"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="hoverable">Hover Over Me</div>
+                <div class="hoverable">Hover Over Me too!</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+                <img id="img1" class="large" src="~/images/oip.jpg" />
+            </td>
+            <td>
+                <img id="img2" class="large" src="~/images/oip.jpg" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.ActionLink("Link For Products", "Products")
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
