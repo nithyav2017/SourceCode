@@ -62,21 +62,23 @@ def extract_text_and_signature(pdf_path, signature_save_path):
                     image_path = os.path.join(signature_save_path, f"signature_{page_num }_{timestamp}.png")
                     pix.save(image_path)
                     print(f"✅ Saved signature snapshot: {image_path}")
-                    break  # stop after finding first signature
+                    #break  # stop after finding first signature
         
-                    # Split and extract form data
-                    lines = text.strip().split('\n')
+                # Split and extract form data
+                lines = text.strip().split('\n')
 
-                    label_count = 17  # known number of labels in the form
-                    labels = [line.rstrip(':').strip() for line in lines[:label_count]]
-                    values = [line.strip() for line in lines[label_count+1:]]
+                label_count = 17  # known number of labels in the form
+                labels = [line.rstrip(':').strip() for line in lines[:label_count]]
+                values = [line.strip() for line in lines[label_count+1:]]
 
-                    while len(values) < len(labels):
-                        values.append(None)
+                while len(values) < len(labels):
+                   values.append(None)
 
-                    data = dict(zip(labels, values))
-                    try:
-                        cursor.execute("""
+                data = dict(zip(labels, values))
+                    
+                #===✅ Step 3: Save Record====
+                try:
+                   cursor.execute("""
                             INSERT INTO PersonalInformation (Name, DateOfBirth, Address, PhoneNumber, Email)
                             OUTPUT INSERTED.Id
                             VALUES (?, ?, ?, ?, ?)
@@ -88,13 +90,12 @@ def extract_text_and_signature(pdf_path, signature_save_path):
                             data.get("Email")
                         ))
                         #conn.commit()
-                        personal_id = cursor.fetchone()[0]
+                   personal_id = cursor.fetchone()[0]
 
-                      #  image_path = r"C:\Users\nithy\OneDrive\Documentos\Nithya\Python\signature_images\" + "signature_0_1747670134.png"
-
-                        with open(image_path, "rb") as f:
+                      
+                   with open(image_path, "rb") as f:
                             image_data = f.read()
-                        cursor.execute(""" 
+                   cursor.execute(""" 
                             INSERT INTO Signature (PersonalId ,ApplicantSignature,SubmissionDate )
                             VALUES(?,?,?)
                         """,(
@@ -102,15 +103,44 @@ def extract_text_and_signature(pdf_path, signature_save_path):
                             image_data,
                             date.today()
                         ))
-                        conn.commit()
-                        print (f"Personal id:{personal_id}")
-                    except Exception as e:
+
+                   cursor.execute("""
+                            INSERT INTO [PreviousEmployment] 
+                                    ([PersonalId]
+                                   ,[CompanyName]
+                                   ,[Role]
+                                   ,[StartEndDates]
+                                   ,[Responsibilities])
+                            VALUES (?, ?, ?, ?, ?)
+                        """, (
+                            personal_id,
+                            data.get("Company Name"),
+                            data.get("Role"),
+                            data.get("Start and End Dates"),
+                            data.get("Responsibilities")
+                        ))
+                   cursor.execute("""
+                            INSERT INTO [EducationalBackground] 
+                                    ([PersonalId]
+                                   ,[HighestEducation]
+                                   ,[Institution]
+                                   ,[GraduationYear])                                   
+                            VALUES (?, ?, ?, ?)
+                        """, (
+                            personal_id,
+                            data.get("Highest Level of Education"),
+                            data.get("Institution"),
+                            data.get("Graduation Year")
+                        ))
+                   conn.commit()
+                   print (f"Personal id:{personal_id}")
+                except Exception as e:
                         print("DB Error:", e)
 
-                    print("\n✅ Extracted Text Data:")
-                    for label, value in data.items():
+                print("\n✅ Extracted Text Data:")
+                for label, value in data.items():
                         print(f"{label}: {value}")
-                    return data
+                return data
         else:
             print("Error: No DOB or Email found in the text")
 
