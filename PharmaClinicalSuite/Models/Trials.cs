@@ -21,9 +21,14 @@ namespace PharmaClinicalSuite.Models
         [ForeignKey("TrialType")]
         public int TrialTypeId { get; set; }
         public TrialType TrialsType { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime UpdatedAt { get; set; }
         public ICollection<AdverseEvents> AdverseEvents { get; set; }
         public ICollection<CaseReportform> CaseReportForms { get; set; }
         public ICollection<TrialSite> TrialSites { get; set; }
+        public ICollection<Enrollment> Enrollments { get; set; }
+        public ICollection<Sites> Sites { get; set; }
+        public ICollection<TrialInvestigator> TrialsInvestigators { get; set; }
     }
 
     public class TrialType

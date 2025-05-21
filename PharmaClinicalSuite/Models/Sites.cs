@@ -14,7 +14,8 @@ namespace PharmaClinicalSuite.Models
         public string Location { get; set; } = string.Empty;
         public string ContactInformation { get;set; } = string.Empty;
 
-        public ICollection<TrialSite> TrialSites { get; set; }
+      // public ICollection<TrialSite> TrialSites { get; set; }
+        public ICollection<Trials> Trials { get; set; }
         
     }
     public class TrialSite
@@ -30,7 +31,7 @@ namespace PharmaClinicalSuite.Models
 
         [ForeignKey("Sites")]
         public int SiteId { get; set; }
-        public Sites Sites { get; set; }
+       // public ICollection<Sites> Sites { get; set; }
     }
 
 

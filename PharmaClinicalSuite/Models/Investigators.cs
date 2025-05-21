@@ -7,11 +7,14 @@ namespace PharmaClinicalSuite.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Investigatorid { get; set; }
+        public int InvestigatorId { get; set; }
         public string FirstName      { get; set; }=string.Empty;
         public string LastName { get; set; }=string.Empty;
         public string ContactInformation { get;set; }=string.Empty;
         public string Affiliation { get;set; }=string.Empty;
 
+        public virtual ICollection<TrialInvestigator> TrialsInvestigators { get; set; }
+
+        
     }
 }

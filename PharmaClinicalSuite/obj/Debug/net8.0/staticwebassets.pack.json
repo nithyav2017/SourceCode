@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\PharmaClinicalSuite.h05j4m7hw3.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\PharmaClinicalSuite\\PharmaClinicalSuite\\wwwroot\\Images\\clinicaltrials-banner.jpg",
+      "PackagePath": "staticwebassets\\Images\\clinicaltrials-banner.jpg"
+    },
+    {
       "Id": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\PharmaClinicalSuite\\PharmaClinicalSuite\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

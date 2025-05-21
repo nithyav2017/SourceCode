@@ -8,20 +8,21 @@ namespace PharmaClinicalSuite.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int EnrollmentId { get; set; } 
-        public Trials TrialId { get;set; }
+        public int EnrollmentId { get; set; }
+        [ForeignKey("Trials")]
+        public int TrialId { get;set; }
+        public Trials Trials { get; set; }
+
         public DateOnly EnrollmentDate     { get; set; }
         public string EligibilityStatus { get; set; }   
         public DateTime WithDrawalDate { get; set; }
 
         [ForeignKey("WithdrawalReason")]
         public int WithDrawalReasonId { get; set; }
-
-        public WithdrawalReason WithdrawalReason { get; set; } // Navigation property
+        public virtual WithdrawalReason WithdrawalReasons { get; set; } // Navigation property
 
         [ForeignKey("Participants")]
         public int ParticipantId { get; set; }
-
         public Participants participant { get; set; }
 
 
