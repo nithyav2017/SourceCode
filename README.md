@@ -1,9 +1,9 @@
-Project Name : PharmaClinicalSuite
-Overview: 
+# Project Name : PharmaClinicalSuite
+## Overview: 
 The branch Dotnet in this repository contains details about implementations related to backend development, database integration, and security enhancements.
 The latest updates focus on refining data models, improving security, and enhancing application functionality.
 
-**✅ Completed Tasks**
+### **✅ Completed Tasks**
 - **Implemented edit functionality** in the application.
 - **Hashed the ID** in URLs for improved security.
 - **Resolved database navigation property issues** to ensure referential integrity.
