@@ -48,7 +48,8 @@ public partial class PharmaClinicalSuiteContext : DbContext
         {
             entity.HasKey(e => e.AdverseEventId).HasName("PK__AdverseE__9AA4ACB0F54C4ED7");
 
-            entity.HasOne(d => d.participants).WithMany(p => p.AdverseEvents)
+            entity.HasOne(d => d.Participants).WithMany(p => p.AdverseEvents)
+            .HasForeignKey(p => p.ParticipantId).IsRequired()
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__AdverseEv__Parti__4BAC3F29");
 
@@ -90,7 +91,8 @@ public partial class PharmaClinicalSuiteContext : DbContext
         {
             entity.HasKey(e => e.EnrollmentId).HasName("PK__Enrollme__7F6877FBF7A96B3D");
 
-            entity.HasOne(d => d.participant).WithMany(p => p.Enrollments)
+            entity.HasOne(d => d.Participants).WithMany(p => p.Enrollments)
+                 .HasForeignKey(d=>d.ParticipantId).IsRequired()
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__Enrollmen__Parti__45F365D3");
 
@@ -108,7 +110,8 @@ public partial class PharmaClinicalSuiteContext : DbContext
 
         modelBuilder.Entity<Participants>(entity =>
         {
-            entity.HasKey(e => e.ParticipantId).HasName("PK__Particip__7227997E3187744A");
+            
+           entity.HasKey(e => e.ParticipantId).HasName("PK__Particip__7227997E3187744A");
 
             entity.Property(e => e.Gender).IsFixedLength();
         });

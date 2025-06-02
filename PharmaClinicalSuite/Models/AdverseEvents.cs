@@ -16,7 +16,7 @@ namespace PharmaClinicalSuite.Models
 
         [ForeignKey("Participants")]
         public int ParticipantId { get; set; }
-        public Participants participants { get; set; }
+        public Participants Participants { get; set; }
 
         [ForeignKey("Trials")]
         public int TrialId { get; set; }

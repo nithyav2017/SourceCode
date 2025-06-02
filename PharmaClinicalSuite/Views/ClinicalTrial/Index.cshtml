@@ -1,106 +1,76 @@
-﻿@model PharmaClinicalSuite.Models.Participants
-
-@{
-    Layout = "~/Views/Shared/_Layout.cshtml";
-    ViewData["Title"] = "Clinical Trial System Management";
-}
-
-<h1>Clinical Trial System</h1>
-
-<h4>Participants Info.</h4>
-<hr />
-<div class="row">
-        <form asp-action="Index">
-            <table>
-                <tr>
-                    <td width="50%">
-                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                    <div class="form-group">
-                        <label asp-for="FirstName" class="control-label"></label>
-                        <input asp-for="FirstName" class="form-control" />
-                        <span asp-validation-for="FirstName" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="LastName" class="control-label"></label>
-                        <input asp-for="LastName" class="form-control" />
-                        <span asp-validation-for="LastName" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="DateOfBirth" class="control-label"></label>
-                        <input asp-for="DateOfBirth" class="form-control" />
-                        <span asp-validation-for="DateOfBirth" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="Email" class="control-label"></label>
-                        <input asp-for="Email" class="form-control" />
-                        <span asp-validation-for="Email" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="Phone" class="control-label"></label>
-                        <input asp-for="Phone" class="form-control" />
-                        <span asp-validation-for="Phone" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="Gender" class="control-label"></label>
-                        <!--<input asp-for="Gender" class="form-control" />-->
-                        <select asp-for="Gender" class="form-control" asp-items="Model.GenderListOption">
-                            <option value="">-- Select Gender --</option>
-
-                        </select>
-                        <span asp-validation-for="Gender" class="text-danger"></span>
-                    </div>
-                </td>
-                 
+﻿@model IList<PharmaClinicalSuite.Models.Participants>
+@using HashidsNet
+@using PharmaClinicalSuite.Utility
+<div>
+    <h4>Participants</h4>
+    <hr />
+    <table class=" table table-striped" style="font-size:x-small">
+        <thead>
+            <tr>
+                @foreach(var prop in typeof(Participants).GetProperties())
+                {
+                    @if (prop.Name.ToString().ToLower() != "participantid" 
+                            && prop.Name.ToString().ToLower() != "enrollments"
+                            && prop.Name.ToString().ToLower() != "adverseevents"
+                           && prop.Name.ToString().ToLower() != "genderlistoption"
+                           && prop.Name.ToString().ToLower() != "medicalhistoryoption")
+                    {
+                         <td>@Html.DisplayName(@prop.Name)</td>
+                    }
+                }
+                <td>@Html.DisplayName(" ")</td>
+            </tr>
+        </thead>
+       
+            @foreach (var item in Model)
+            {
+            <tr>
                 <td>
-                    <div class="form-group">
-                        <label asp-for="Address1" class="control-label"></label>
-                        <input asp-for="Address1" class="form-control" />
-                        <span asp-validation-for="Address1" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="Address2" class="control-label"></label>
-                        <input asp-for="Address2" class="form-control" />
-                        <span asp-validation-for="Address2" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="MedicalHistory" class="control-label"></label>
-                        <!-- <input asp-for="MedicalHistory" class="form-control" /> -->
-                        <select asp-for="MedicalHistory" class="form-control" asp-items="Model.MedicalHistoryOption">
-                            <option value="">-- Select Medical History --</option>
-
-                        </select>
-                        <span asp-validation-for="MedicalHistory" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="Allergies" class="control-label"></label>
-                        <input asp-for="Allergies" class="form-control" />
-                        <span asp-validation-for="Allergies" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="BMI" class="control-label"></label>
-                        <input asp-for="BMI" class="form-control" />
-                        <span asp-validation-for="BMI" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="GuardianInfo" class="control-label"></label>
-                        <input asp-for="GuardianInfo" class="form-control" />
-                        <span asp-validation-for="GuardianInfo" class="text-danger"></span>
-                    </div>
+                    @Html.DisplayFor(Model => item.FirstName)
                 </td>
+                <td>
+                    @Html.DisplayFor(Model => item.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(Model => item.DateOfBirth)
+                </td>
+                <td>
+                    @Html.DisplayFor(Model => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(Model => item.Phone)
+                </td>
+                <td>
+                    @Html.DisplayFor(Model => item.Gender)
+                </td>
+                <td>
+                    @Html.DisplayFor(Model => item.Address1)
+                </td>
+                <td>
+                    @Html.DisplayFor(Model => item.City)
+                </td>
+                <td>
+                    @Html.DisplayFor(Model => item.MedicalHistory)
+                </td>
+                <td>
+                    @Html.DisplayFor(Model => item.Allergies)
+                </td>
+                <td>
+                    @Html.DisplayFor(Model => item.BMI)
+                </td>
+                <td>
+                    @Html.DisplayFor(Model => item.GuardianInfo)
+                </td>
+                @{
+                    var encodedId = HashIdHelper.EncodeId(item.ParticipantId);
+                }
+                <td><a asp-action="Edit" asp-controller="ClinicalTrial" asp-route-id="@encodedId">Edit</a></td>
             </tr>
-      <tr>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-            </tr>
-        </table>
-        </form>
-    </div>
+            }
+
+    </table>
  
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Create" asp-controller="ClinicalTrial">New</a>      
 </div>
-
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
+</div>

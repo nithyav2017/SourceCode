@@ -16,11 +16,11 @@ namespace PharmaClinicalSuite.Models
         public string FirstName { get; set; } = string.Empty;
         [Required]
         public string LastName { get; set; } = string.Empty;
-
         [Required]
         [DataType(DataType.Date)]
         [NonFutureDate]
-        public DateOnly DateOfBirth { get; set; }
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+        public DateTime DateOfBirth { get; set; } = DateTime.Today; 
         [Required]
         [EmailAddress]
         public string Email { get; set; } = string.Empty;
@@ -28,18 +28,32 @@ namespace PharmaClinicalSuite.Models
         [Phone] 
         public string Phone { get; set; }
         public string Gender { get; set; } = string.Empty;
-        public List<SelectListItem> GenderListOption { get; set; }
+        [NotMapped ]
+        public List<SelectListItem>? GenderListOption { get; set; } = null;
+        [Required]
         public string Address1 { get; set; } = string.Empty;
-        public string Address2 { get; set; }=string.Empty;
+        [Required]
+        public string City { get; set; }=string.Empty;
+        //public List<SelectListItem> CityOption { get; set; }
+
+        //[Required]
+        //public string State { get; set; }
+        //public List<SelectListItem> StateOption { get; set; }
+
+        //[Required]
+        //public string Country { get; set; }
+        //public List<SelectListItem> CountryOption { get; set; }
+
         [Required]
         [Display(Name = "Medical History")]
         public string MedicalHistory { get; set; } = string.Empty;
-        public List<SelectListItem>MedicalHistoryOption { get; set; }  
+        [NotMapped]
+        public List<SelectListItem>? MedicalHistoryOption { get; set; } = null;
         public string Allergies { get; set; } = string.Empty;
-        public float BMI { get;set; }
+        public decimal BMI { get;set; }
         public string GuardianInfo { get; set; } = string.Empty; //for minor
-        public ICollection<Enrollment> Enrollments { get; set; }
-        public ICollection<AdverseEvents> AdverseEvents { get; set; }
+        public ICollection<Enrollment>? Enrollments { get; set; } = null;
+        public ICollection<AdverseEvents>? AdverseEvents { get; set; } = null;
 
     }
 

@@ -1,7 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore;
 
 namespace PharmaClinicalSuite.Models
 {
+    [Keyless]
     public class TrialInvestigator
     {
         [ForeignKey("Trials")]

@@ -17,13 +17,13 @@ namespace PharmaClinicalSuite.Models
         public string EligibilityStatus { get; set; }   
         public DateTime WithDrawalDate { get; set; }
 
-        [ForeignKey("WithdrawalReason")]
+        [ForeignKey("WithdrawalReasons")]
         public int WithDrawalReasonId { get; set; }
         public virtual WithdrawalReason WithdrawalReasons { get; set; } // Navigation property
 
         [ForeignKey("Participants")]
         public int ParticipantId { get; set; }
-        public Participants participant { get; set; }
+        public Participants Participants { get; set; }
 
 
 
