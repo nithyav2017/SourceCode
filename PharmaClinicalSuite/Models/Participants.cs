@@ -55,6 +55,9 @@ namespace PharmaClinicalSuite.Models
         public ICollection<Enrollment>? Enrollments { get; set; } = null;
         public ICollection<AdverseEvents>? AdverseEvents { get; set; } = null;
 
+        [NotMapped]
+        public int SimilarityScore { get; set; }
+
     }
 
     public class NonFutureDateAttribute : ValidationAttribute

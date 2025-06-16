@@ -6,8 +6,12 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<PharmaClinicalSuiteContext>(option => 
-            option.UseSqlServer( builder.Configuration.GetConnectionString("DefaultConnection")));
+//builder.Services.AddDbContext<PharmaClinicalSuiteContext>(option => 
+       //     option.UseSqlServer( builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddDbContextFactory<PharmaClinicalSuiteContext>(option =>
+            option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 
 var app = builder.Build();
 

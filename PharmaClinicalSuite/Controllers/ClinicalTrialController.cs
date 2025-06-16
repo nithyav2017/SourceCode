@@ -1,32 +1,29 @@
-﻿using System.Linq.Expressions;
-using System.Numerics;
-using System.Runtime.ConstrainedExecution;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
-using NuGet.Packaging.Signing;
 using PharmaClinicalSuite.Data;
 using PharmaClinicalSuite.Models;
 using PharmaClinicalSuite.Utility;
+using FuzzySharp;
+using Microsoft.CodeAnalysis;
+using System.Threading.Tasks;
 
 namespace PharmaClinicalSuite.Controllers
 {
     public class ClinicalTrialController : Controller
     {
      //   private readonly ILogger _logger;
-        private readonly PharmaClinicalSuiteContext _context;
+        private readonly IDbContextFactory<PharmaClinicalSuiteContext> _dbcontext;
 
-        public ClinicalTrialController( PharmaClinicalSuiteContext context)
+        public ClinicalTrialController(IDbContextFactory<PharmaClinicalSuiteContext> context)
         {
           //  _logger = logger;
-            _context = context;
+            _dbcontext = context;
         }
         [HttpGet]
         public async Task<IActionResult> Index()
         {
+            using var _context = _dbcontext.CreateDbContext();
             var participants = await _context.Participants.ToListAsync();
             return View(participants);
         }
@@ -39,7 +36,7 @@ namespace PharmaClinicalSuite.Controllers
                 MedicalHistoryOption = AddMedicalHistory(),
                 GenderListOption = new List<SelectListItem>
                 {
-                    new SelectListItem {Text="Male", Value ="Male"},
+                    new SelectListItem {Text="Male", Value ="Male"},    
                     new SelectListItem{Text="Female", Value="Female"},
                      new SelectListItem{Text="Other", Value="Other"}
                 }
@@ -50,6 +47,7 @@ namespace PharmaClinicalSuite.Controllers
         
         public async Task< IActionResult>  Edit(string? id)
         {
+            using var _context = _dbcontext.CreateDbContext();
             if (id == null)
                 return NotFound();
             ViewBag.decodeId = id;
@@ -95,6 +93,7 @@ namespace PharmaClinicalSuite.Controllers
         
         public async Task<IActionResult> Edit(string id, Participants model)
         {
+            using var _context = _dbcontext.CreateDbContext();
             int? Id = HashIdHelper.DecodeId(id);
             if (ModelState.IsValid)
             {
@@ -114,11 +113,28 @@ namespace PharmaClinicalSuite.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([FromForm] Participants participant)
         {
-            
+
+            using var _context = _dbcontext.CreateDbContext();
             if (ModelState.IsValid)
             {
-                
- 
+                int[] rules = new int[] { 1, 2, 3, 4 };
+                var result = await MatchInfoAsync(participant, rules);
+
+             
+                var duplicate = result.Any(p => p.SimilarityScore >=85) ;
+              
+                var rankItems = result.OrderByDescending(x => x.SimilarityScore)
+                                  .GroupBy(x => x.SimilarityScore)
+                                  .SelectMany((group, index) => group.Select(x => new
+                                  {
+                                      x.FirstName,
+                                      x.LastName,
+                                      Rank = index + 1
+                                  }));
+
+                if (!duplicate)
+                {
+                 
                     _context.Participants.Add(new Participants
                     {
                         FirstName = participant.FirstName,
@@ -134,10 +150,14 @@ namespace PharmaClinicalSuite.Controllers
                         BMI = participant.BMI,
                         GuardianInfo = participant.GuardianInfo
                     });
-                 
-                _context.SaveChanges();
-                return RedirectToAction("Index");
-
+                    _context.SaveChanges();
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    ModelState.AddModelError("", "Duplicate Match Found");
+                    return View("Create", participant);
+                }
             }
             else
             {
@@ -157,7 +177,7 @@ namespace PharmaClinicalSuite.Controllers
             };
             
         }
-       private List<SelectListItem> AddMedicalHistory()
+        private List<SelectListItem> AddMedicalHistory()
         {
             var list = new List<SelectListItem>() {
                         new SelectListItem { Text = "No Known Medical Problems", Value = "No Known Medical Problems" },
@@ -194,5 +214,76 @@ namespace PharmaClinicalSuite.Controllers
                     };
                     return list;
        }
+       
+        private async Task<List<Participants>> MatchInfoAsync(Participants participant, int[] rules)
+        {
+            var tasks = rules.Select(rule => Task.Run(() => MatchInfo(participant, rule)))
+                        .ToArray();
+
+            var results  = await Task.WhenAll(tasks);
+
+            return results.SelectMany(list => list).ToList();
+        }
+        
+        private   async Task<List<Participants>> MatchInfo(Participants newparticipant , int rule)
+        {
+            using var _context = _dbcontext.CreateDbContext();
+
+            switch (rule)
+            {
+                case 1:
+
+                    var participants = await _context.Participants
+                                   .Where(p => p.City == newparticipant.City &&
+                                           p.DateOfBirth == newparticipant.DateOfBirth)
+                                   .AsNoTracking()
+                                   .ToListAsync();
+
+                    return participants
+                           .AsParallel()
+                           .Select(p => { p.SimilarityScore = Fuzz.Ratio(p.FirstName, newparticipant.FirstName); return p; })
+                                  .OrderByDescending(p => p.SimilarityScore)
+                                  .ToList();
+
+
+
+                case 2:
+                    var results = await _context.Participants
+                                   .Where(p => p.LastName == newparticipant.LastName)
+                                   .AsNoTracking()
+                                   .ToListAsync();
+                    return results
+                                   .AsParallel()   
+                                   .Select(p => { p.SimilarityScore = Fuzz.Ratio(p.FirstName, newparticipant.FirstName); return p; })
+                                   .OrderByDescending(p => p.SimilarityScore)
+                                   .ToList();
+                case 3:
+                    var results2 = await _context.Participants
+                                   .Where(p => p.LastName == newparticipant.LastName &&
+                                               p.City == newparticipant.City &&
+                                               p.DateOfBirth == newparticipant.DateOfBirth)
+                                    .AsNoTracking()
+                                    .ToListAsync();
+                    return results2.AsParallel()
+                                    .Select(p => { p.SimilarityScore = Fuzz.Ratio(p.FirstName, newparticipant.FirstName); return p; })
+                                    .OrderByDescending(p => p.SimilarityScore)
+                                    .ToList();
+                                 
+                case 4:
+
+                    var results3 = await _context.Participants.
+                                   Where(p => p.LastName == newparticipant.LastName &&
+                                          p.City == newparticipant.City)
+                                   .AsNoTracking()
+                                   .ToListAsync();
+                    return results3.AsParallel()
+                                   .Select(p => { p.SimilarityScore = Fuzz.Ratio(p.FirstName, newparticipant.FirstName); return p; })
+                                   .ToList();
+                default :
+                    return null;
+
+
+            }
+        }
     }
 }

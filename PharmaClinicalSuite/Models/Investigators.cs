@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace PharmaClinicalSuite.Models
 {
-    public class Investigators
+    public class Investigator
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using PharmaClinicalSuite;
@@ -24,7 +25,7 @@ public partial class PharmaClinicalSuiteContext : DbContext
 
     public virtual DbSet<Enrollment> Enrollments { get; set; }
 
-    public virtual DbSet<Investigators> Investigators { get; set; }
+    public virtual DbSet<Investigator> Investigator { get; set; }
 
     public virtual DbSet<Participants> Participants { get; set; }
 
@@ -36,7 +37,7 @@ public partial class PharmaClinicalSuiteContext : DbContext
 
     public virtual DbSet<Trials> Trials { get; set; }
 
-    public virtual DbSet<TrialInvestigator> TrialInvestigators { get; set; }
+    public virtual DbSet<TrialInvestigator> TrialsInvestigators { get; set; }
 
     public virtual DbSet<TrialType> TrialTypes { get; set; }
 
@@ -92,7 +93,7 @@ public partial class PharmaClinicalSuiteContext : DbContext
             entity.HasKey(e => e.EnrollmentId).HasName("PK__Enrollme__7F6877FBF7A96B3D");
 
             entity.HasOne(d => d.Participants).WithMany(p => p.Enrollments)
-                 .HasForeignKey(d=>d.ParticipantId).IsRequired()
+                 .HasForeignKey(d => d.ParticipantId).IsRequired()
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__Enrollmen__Parti__45F365D3");
 
@@ -103,15 +104,15 @@ public partial class PharmaClinicalSuiteContext : DbContext
             entity.HasOne(d => d.WithdrawalReasons).WithMany(p => p.Enrollments).HasConstraintName("FK__Enrollmen__Withd__47DBAE45");
         });
 
-        modelBuilder.Entity<Investigators>(entity =>
+        modelBuilder.Entity<Investigator>(entity =>
         {
             entity.HasKey(e => e.InvestigatorId).HasName("PK__Investig__A09546DB837CFE7F");
         });
 
         modelBuilder.Entity<Participants>(entity =>
         {
-            
-           entity.HasKey(e => e.ParticipantId).HasName("PK__Particip__7227997E3187744A");
+
+            entity.HasKey(e => e.ParticipantId).HasName("PK__Particip__7227997E3187744A");
 
             entity.Property(e => e.Gender).IsFixedLength();
         });
@@ -139,9 +140,9 @@ public partial class PharmaClinicalSuiteContext : DbContext
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__Participa__FormI__656C112C");
 
-           /*entity.HasOne(d => d.ParticipantFieldData).WithMany(p => p.ParticipantFormEntries)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Participa__Parti__6477ECF3");*/
+            /*entity.HasOne(d => d.ParticipantFieldData).WithMany(p => p.ParticipantFormEntries)
+                 .OnDelete(DeleteBehavior.ClientSetNull)
+                 .HasConstraintName("FK__Participa__Parti__6477ECF3");*/
         });
 
         modelBuilder.Entity<Sites>(entity =>
@@ -183,7 +184,7 @@ public partial class PharmaClinicalSuiteContext : DbContext
         {
             entity.HasKey(e => new { e.TrialId, e.InvestigatorId }).HasName("PK__TrialInv__451971C9ECD67464");
 
-            entity.HasOne(d => d.Investigators).WithMany(p => p.TrialsInvestigators)
+            entity.HasOne(d => d.Investigator).WithMany(p => p.TrialsInvestigators)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__TrialInve__Inves__52593CB8");
 
@@ -201,7 +202,7 @@ public partial class PharmaClinicalSuiteContext : DbContext
         {
             entity.HasKey(e => e.WithdrawalReasonID).HasName("PK__Withdraw__BE8C1525ACA37278");
 
-            
+
 
         });
 
