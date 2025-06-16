@@ -1,0 +1,9 @@
+C:\Users\nithy\OneDrive\Desktop\New folder\PharmaClinicalSuite\obj\Debug\net8.0\PharmaClinicalSuite.csproj.AssemblyReference.cache
+C:\Users\nithy\OneDrive\Desktop\New folder\PharmaClinicalSuite\obj\Debug\net8.0\PharmaClinicalSuite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nithy\OneDrive\Desktop\New folder\PharmaClinicalSuite\obj\Debug\net8.0\PharmaClinicalSuite.AssemblyInfoInputs.cache
+C:\Users\nithy\OneDrive\Desktop\New folder\PharmaClinicalSuite\obj\Debug\net8.0\PharmaClinicalSuite.AssemblyInfo.cs
+C:\Users\nithy\OneDrive\Desktop\New folder\PharmaClinicalSuite\obj\Debug\net8.0\PharmaClinicalSuite.csproj.CoreCompileInputs.cache
+C:\Users\nithy\OneDrive\Desktop\New folder\PharmaClinicalSuite\obj\Debug\net8.0\PharmaClinicalSuite.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nithy\OneDrive\Desktop\New folder\PharmaClinicalSuite\obj\Debug\net8.0\PharmaClinicalSuite.RazorAssemblyInfo.cache
+C:\Users\nithy\OneDrive\Desktop\New folder\PharmaClinicalSuite\obj\Debug\net8.0\PharmaClinicalSuite.RazorAssemblyInfo.cs
+C:\Users\nithy\OneDrive\Desktop\New folder\PharmaClinicalSuite\obj\Debug\net8.0\PharmaClinicalSuite.sourcelink.json
