@@ -46,6 +46,9 @@ namespace PDFToTextConverter.Pages
         {
             string text = string.Empty;
             string tessPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "tessdata");
+
+            Console.WriteLine("Tesseract path: " + tessPath);
+
             using (var engine = new TesseractEngine(tessPath, "eng", EngineMode.Default))
             {
                 string[] imageFiles = Directory.GetFiles(imagepath);
