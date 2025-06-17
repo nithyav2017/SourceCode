@@ -11,5 +11,6 @@ The latest updates focus on refining data models, improving security, and enhanc
 - **Refactored dropdown filtering logic** for dynamic data binding.
 - **Enhanced form UI elements** to improve spacing and readability.
 - **Implemented MDM logic using Fuzz algorithm** to identify and eliminate duplicate records.
+- **Created multiple isolated DbContext instances" to enable parallel operations and prevent interaction conflicts.
 
 
