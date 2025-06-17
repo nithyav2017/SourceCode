@@ -10,5 +10,6 @@ The latest updates focus on refining data models, improving security, and enhanc
 - **Configured Docker SQL Server connections** to enable seamless backend integration.
 - **Refactored dropdown filtering logic** for dynamic data binding.
 - **Enhanced form UI elements** to improve spacing and readability.
+- **Implemented MDM logic using Fuzz algorithm** to identify and eliminate duplicate records.
 
 
