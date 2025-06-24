@@ -1,6 +1,12 @@
+using MediatR;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using PharmaClinicalSuite.Application.Events.ScheduledVisit;
 using PharmaClinicalSuite.Data;
+using PharmaClinicalSuite.Domain.Interfaces;
+using PharmaClinicalSuite.Models.Interfaces;
+using PharmaClinicalSuite.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +18,12 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContextFactory<PharmaClinicalSuiteContext>(option =>
             option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.AddScoped(typeof(IRepository<>), typeof(EFRepository<>));
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<IEmailService, SmtpEmailService>();
+
+builder.Services.AddMediatR(typeof(ScheduleVisitCommandHandler).Assembly);
+builder.Services.AddMediatR(typeof(ScheduleVisitEventHandler).Assembly);
 
 var app = builder.Build();
 

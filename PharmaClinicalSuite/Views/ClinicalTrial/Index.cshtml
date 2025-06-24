@@ -1,6 +1,12 @@
-﻿@model IList<PharmaClinicalSuite.Models.Participants>
+﻿@model IList<Participants>
 @using HashidsNet
+@using PharmaClinicalSuite.Domain.Models
 @using PharmaClinicalSuite.Utility
+
+@{
+    string encodedId = string.Empty;
+}
+
 <div>
     <h4>Participants</h4>
     <hr />
@@ -13,7 +19,9 @@
                             && prop.Name.ToString().ToLower() != "enrollments"
                             && prop.Name.ToString().ToLower() != "adverseevents"
                            && prop.Name.ToString().ToLower() != "genderlistoption"
-                           && prop.Name.ToString().ToLower() != "medicalhistoryoption")
+                           && prop.Name.ToString().ToLower() != "medicalhistoryoption"
+                           && prop.Name.ToString().ToLower() != "similarityscore"
+                            && prop.Name.ToString().ToLower() != "visits")
                     {
                          <td>@Html.DisplayName(@prop.Name)</td>
                     }
@@ -62,15 +70,22 @@
                     @Html.DisplayFor(Model => item.GuardianInfo)
                 </td>
                 @{
-                    var encodedId = HashIdHelper.EncodeId(item.ParticipantId);
+                      encodedId = HashIdHelper.EncodeId(item.ParticipantId);
                 }
-                <td><a asp-action="Edit" asp-controller="ClinicalTrial" asp-route-id="@encodedId">Edit</a></td>
+                <td><a asp-action="Edit" asp-controller="ClinicalTrial" asp-route-id="@encodedId">Edit</a> </td> 
+                 <td><a asp-controller="Visit" asp-action="GetVisit" asp-route-participantId="@encodedId" />Manage Visits</td>
             </tr>
             }
 
     </table>
  
 <div>
-    <a asp-action="Create" asp-controller="ClinicalTrial">New</a>      
+    <table>
+        <tr>
+            <td>
+                    <a asp-action="Create" asp-controller="ClinicalTrial">New</a> | <a asp-controller="Visit" asp-action="GetVisit" asp-route-participantId="@encodedId"/>
+            </td>
+        </tr>
+    </table>
 </div>
 </div>

@@ -2,11 +2,12 @@
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using PharmaClinicalSuite.Data;
-using PharmaClinicalSuite.Models;
 using PharmaClinicalSuite.Utility;
 using FuzzySharp;
 using Microsoft.CodeAnalysis;
 using System.Threading.Tasks;
+using MediatR;
+using PharmaClinicalSuite.Domain.Models;
 
 namespace PharmaClinicalSuite.Controllers
 {
@@ -15,10 +16,13 @@ namespace PharmaClinicalSuite.Controllers
      //   private readonly ILogger _logger;
         private readonly IDbContextFactory<PharmaClinicalSuiteContext> _dbcontext;
 
-        public ClinicalTrialController(IDbContextFactory<PharmaClinicalSuiteContext> context)
+     
+
+        public ClinicalTrialController(IDbContextFactory<PharmaClinicalSuiteContext> context )
         {
           //  _logger = logger;
             _dbcontext = context;
+            
         }
         [HttpGet]
         public async Task<IActionResult> Index()

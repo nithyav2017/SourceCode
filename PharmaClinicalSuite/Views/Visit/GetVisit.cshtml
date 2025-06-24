@@ -1,0 +1,113 @@
+﻿@using Microsoft.AspNetCore.Mvc.ModelBinding
+@using Microsoft.AspNetCore.Mvc.ViewFeatures
+@using PharmaClinicalSuite.Domain.Models
+
+@model IEnumerable<Visit>
+@{
+    var participantId =(int) ViewBag.ParticipantId;
+
+    var model = new PharmaClinicalSuite.Domain.Models.Visit
+            {
+                ParticipantId = participantId
+            };
+
+    var localViewData = new ViewDataDictionary<Visit>(
+          metadataProvider: new EmptyModelMetadataProvider(),
+          modelState: new ModelStateDictionary())
+            {
+                Model = model //new PharmaClinicalSuite.Models.Visit()
+            };
+             
+   // localViewData["ParticipantId"] = participantId;
+}
+
+<h1>View</h1>
+
+<p>
+    <a asp-action="GetVisit">Participant Visits</a>
+</p>
+@if(Model.Count() > 0){
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.VisitType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ScheduledDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ActualVisitDate)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Notes)
+            </th>
+            <!-- <th>
+           @*  @Html.DisplayNameFor(model => model.Participant) *@
+            </th>-->
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VisitType)
+                </td>
+                
+                <td>
+                    @Html.DisplayFor(modelItem => item.ScheduledDate)
+                </td>
+                <td>
+                    <td>@(item.ActualVisitDate?.ToString("MMM dd, yyyy") ?? "Not yet visited")</td>
+
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+                <td>
+                   @*  @if(item.Status != "Completed")
+                    {
+                        <form asp-action="LogVisit" method="post" class="form-inline">
+                            <iput type="hidden" name="visitId" value="@item.Id"></iput>
+                            <input type="date" name="actualVisitDate" class="form-control" required/>
+                            <button type="submit" class="btn btn-sm btn-primary">Log</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <span>✔ Completed</span>
+                    } 
+                        @Html.DisplayFor(modelItem => item.Status)*@
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Notes)
+            </td>
+       @*  <td>
+            @Html.DisplayFor(modelItem => item.Participant.FirstName + " "+ item.Participant.LastName)
+        </td> *@
+            <td>
+                <a asp-action="ScheduleVisit" asp-route-id="@item.Id">Edit</a> |            
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<hr/>
+}
+else
+{
+<h4>Schedule New Visit</h4>
+
+<form asp-action="ScheduleVisit" method="post">
+   
+    @await Html.PartialAsync("_VisitForm", model, localViewData  )
+   
+</form>
+}

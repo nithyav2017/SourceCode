@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using PharmaClinicalSuite.Domain.Models;
 using PharmaClinicalSuite.Models;
 
 namespace PharmaClinicalSuite.Controllers

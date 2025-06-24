@@ -3,8 +3,8 @@ using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using PharmaClinicalSuite;
-using PharmaClinicalSuite.Models;
-using static PharmaClinicalSuite.Models.Data_Collection;
+using PharmaClinicalSuite.Domain.Models;
+using static PharmaClinicalSuite.Domain.Models.Data_Collection;
 
 namespace PharmaClinicalSuite.Data;
 
@@ -43,6 +43,8 @@ public partial class PharmaClinicalSuiteContext : DbContext
 
     public virtual DbSet<WithdrawalReason> WithdrawalReasons { get; set; }
 
+  public virtual DbSet<Visit> Visit { get; set; }
+  
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<AdverseEvents>(entity =>
@@ -192,6 +194,15 @@ public partial class PharmaClinicalSuiteContext : DbContext
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__TrialInve__Trial__5165187F");
         });
+        modelBuilder.Entity<Visit>(e =>
+        {
+            e.HasKey(e => new { e.Id }).HasName("PK_Visit");
+            e.HasOne(e => e.Participant).WithMany(e => e.Visits)
+              .OnDelete(DeleteBehavior.ClientSetNull)
+              .HasConstraintName("FK_Participant_Id");
+        }); 
+       
+            
 
         modelBuilder.Entity<TrialType>(entity =>
         {
