@@ -38,9 +38,13 @@ Recent updates follow Domain-Driven Design (DDD) principles and demonstrate SOLI
 
 ### 📁 Realted Files
 -[ScheduleVisitCommand.cs] https://github.com/nithyav2017/SourceCode/blob/Dotnet/PharmaClinicalSuite/Application/Events/ScheduledVisit/SchduleVisitCommand.cs - Application Request.
--[ScheduleVisitCommandHandler.cs] https://github.com/nithyav2017/SourceCode/blob/Dotnet/PharmaClinicalSuite/Application/Events/ScheduledVisit/ScheduleVisitCommandHandler.cs - Handles the business logic.
+
+-[ScheduleVisitCommandHandler.cs] https://github.com/nithyav2017/SourceCode/blob/Dotnet/PharmaClinicalSuite/Application/Events/ScheduledVisit/ScheduleVisitCommandHandler.cs   Handles the business logic.
+
 -[VisitSchduledEvent.cs] https://github.com/nithyav2017/SourceCode/blob/Dotnet/PharmaClinicalSuite/Domain/Events/VisitScheduledEvent.cs- Domain Event.
+
 -[ScheduleVisitEventHandler.cs] https://github.com/nithyav2017/SourceCode/blob/Dotnet/PharmaClinicalSuite/Application/Events/ScheduledVisit/ScheduleVisitEventHandler.cs  - Sends email when event is raised.
+
 -[SmtpEmailService.cs] https://github.com/nithyav2017/SourceCode/blob/Dotnet/PharmaClinicalSuite/Services/SmtpEmailService.cs- Reads config and sends mail using 'SmtpClient'. 
 
 
