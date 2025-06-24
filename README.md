@@ -1,4 +1,4 @@
-# Project Name : PharmaClinicalSuite
+# Project Name : Clinical Trial Management System(CTMS)
 ## Overview: 
 The branch Dotnet in this repository contains details about implementations related to backend development, database integration, and security enhancements.
 The application Clinical Trial Management System(CTMS) focused on refining data models, improving security, and enhancing application functionality and latest updates follows Domain-Driven Design (DDD) and demonstrate solid OOP principles through a MediatR and Event-Driven architecture.
