@@ -36,7 +36,7 @@ Recent updates follow Domain-Driven Design (DDD) principles and demonstrate SOLI
 |Polymorphism                  |'IEmailService' can be implemented using SMTP, SendGrid etc.,             |
 |Separation of Concerns        |Domain logic, event handling, and Email infrastructure are decoupled      |
 
-### Realted Files
+### 📁 Realted Files
 -'ScheduleVisitCommand.cs' - Application Request.
 -'scheduleVisitCommandHandler.cs' - Handles the business logic.
 -'VisitSchduledEvent.cs' - Domain Event.
