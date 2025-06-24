@@ -40,54 +40,13 @@ namespace PharmaClinicalSuite.Controllers
             return View(visits);
         }
 
-        /* public async Task<IActionResult> AddVisit([FromBody] Visit visit)
-         {
-             if (ModelState.IsValid)
-             {
+       
 
-                 await _dbcontext.Visits.AddAsync(visit);
-                 await  _dbcontext.SaveChangesAsync();                
-
-                 return View();
-             }
-             else
-             {
-                  ModelState.AddModelError("","Something went wrong");
-                  return View();
-             }
-         }*/
-
-     /*   [HttpPost]
-        public async Task<IActionResult> ScheduleVisit(int visitId)
-        {
-            if (visitId > 0)
-            {
-                var visit = _dbcontext.Visit.Find(visitId);
-                if (visit == null)
-                    return NotFound();
-                return View("_VisitForm", visit);
-                
-            }
-            return NotFound();
-      //      return RedirectToAction("GetVisit", new { participantId = visit.ParticipantId });
-        }*/
+      
         [HttpPost]
         public async Task<IActionResult> ScheduleVisit([FromForm] Visit model)
         {
-            /*if (visit.ParticipantId >0)
-            {
-                visit.Participant = await _dbcontext.Participants.FirstOrDefaultAsync(x => x.ParticipantId == visit.ParticipantId);
-                if (ModelState.IsValid)
-                {
-                    _dbcontext.Visit.Add(visit);
-                    await _dbcontext.SaveChangesAsync();
-                }
-                else
-                {
-                    ModelState.AddModelError("", "Error occurd");
-                    return View("_VisitForm");
-                }
-            }*/
+             
 
             var command = new SchduleVisitCommand
             {

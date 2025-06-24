@@ -24,7 +24,7 @@ namespace PharmaClinicalSuite.Services
                  _config["Email:Password"]),
                 EnableSsl = true
             };
-            var mail = new MailMessage("nithya.jganesh@gmail.com", emailMessage.To, emailMessage.Subject, emailMessage.Body);
+            var mail = new MailMessage("test@gmail.com", emailMessage.To, emailMessage.Subject, emailMessage.Body);
             await smtp.SendMailAsync(mail);
         }
     }
