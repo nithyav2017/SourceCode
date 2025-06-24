@@ -37,7 +37,7 @@ The application Clinical Trial Management System(CTMS) focused on refining data 
 -'ScheduleVisitCommand.cs' - Application Request.
 -'scheduleVisitCommandHandler.cs' - Handles the business logic.
 -'VisitSchduledEvent.cs' - Domain Event.
--'VisitScheduledEmailHandler.cs' - Sends email when event is raised.
+-'ScheduleVisitEventHandler.cs' - Sends email when event is raised.
 -'SmtpEmailService.cs' - Reads config and sends mail using 'SmtpClient'.
 
 
