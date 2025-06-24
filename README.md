@@ -1,7 +1,8 @@
 # Project Name : Clinical Trial Management System(CTMS)
 ## Overview: 
-The branch Dotnet in this repository contains details about implementations related to backend development, database integration, and security enhancements.
-The application Clinical Trial Management System(CTMS) focused on refining data models, improving security, and enhancing application functionality and latest updates follows Domain-Driven Design (DDD) and demonstrate solid OOP principles through a MediatR and Event-Driven architecture.
+The Dotnet branch of this repository contains implementations related to backend development, database integration, and security enhancements.
+The Clinical Trial Management System (CTMS) application focuses on refining data models, strengthening security, and enhancing core functionality.
+Recent updates follow Domain-Driven Design (DDD) principles and demonstrate SOLID object-oriented programming (OOP) practices through the use of MediatR and an event-driven architecture.
 
 ### **✅ Completed Tasks**
 - **Implemented edit functionality** in the application.
