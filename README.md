@@ -26,7 +26,7 @@ The application Clinical Trial Management System(CTMS) focused on refining data 
 ### OOP Principles Demostrated
 |Principle                     |Where It's Applied                                                        | 
 |------------------------------|--------------------------------------------------------------------------|
-|Abstarction                   |Controller calls 'IMediator', not direct logic                            |
+|Abstraction                   |Controller calls 'IMediator', not direct logic                            |
 |Encapsulation                 |Scheduling logic is in 'ScheduleVisitCommandHandler'                      |
 |Dependency Inversion          |'VisitScheduledEmailHandler' uses 'IEmailService', not concrete           |
 |Interface Segregation         |'IEmailService' focuses only on email-related operations                  |
