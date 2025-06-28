@@ -16,6 +16,8 @@ Recent updates follow Domain-Driven Design (DDD) principles and demonstrate SOLI
 - **Implemented MDM logic using Fuzz algorithm** to identify and eliminate duplicate records.
 - **Created multiple isolated DbContext instances** to enable parallel operations and prevent interaction conflicts.
 - **Implemented event-driven design using MediatR and Domain Events** to decouple business logic from infrastructure concerns and support scalable side-effect handling.
+- **Publish Docker image (built via Visual Studio) to Azure Container Registry (ACR), then deploy to Azure Container Instances (ACI) using Azure CLI for testing on Azure.**
+- 
 
 ---
 ### Flow Overview
