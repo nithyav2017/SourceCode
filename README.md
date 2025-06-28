@@ -53,7 +53,11 @@ Recent updates follow Domain-Driven Design (DDD) principles and demonstrate SOLI
 - Published to Azure Container Registry (ACR).
 ## Deploy to Azure ocntainer Instance (ACI).
 -Deploy to azure container and start the container using Azure CLI.
+
+
 -Ex: 
+
+
 az container create --resource-group new-grp --name cont001 --image azcontainerreg0001.azurecr.io/dockerapp:latest --registry-login-server azcontainerreg0001.azurecr.io 
                     --registry-username <admin-username> --registry-password <admin-password> --ports 8080 --ip-address Public 
                     --environment-variables ASPNETCORE_URLS="http://+:8080" 
