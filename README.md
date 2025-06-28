@@ -16,8 +16,7 @@ Recent updates follow Domain-Driven Design (DDD) principles and demonstrate SOLI
 - **Implemented MDM logic using Fuzz algorithm** to identify and eliminate duplicate records.
 - **Created multiple isolated DbContext instances** to enable parallel operations and prevent interaction conflicts.
 - **Implemented event-driven design using MediatR and Domain Events** to decouple business logic from infrastructure concerns and support scalable side-effect handling.
-- **Publish Docker image (built via Visual Studio) to Azure Container Registry (ACR), then deploy to Azure Container Instances (ACI) using Azure CLI for testing on Azure.**
-  
+
 
 ---
 ### Flow Overview
@@ -48,6 +47,18 @@ Recent updates follow Domain-Driven Design (DDD) principles and demonstrate SOLI
 -[ScheduleVisitEventHandler.cs] https://github.com/nithyav2017/SourceCode/blob/Dotnet/PharmaClinicalSuite/Application/Events/ScheduledVisit/ScheduleVisitEventHandler.cs  - Sends email when event is raised.
 
 -[SmtpEmailService.cs] https://github.com/nithyav2017/SourceCode/blob/Dotnet/PharmaClinicalSuite/Services/SmtpEmailService.cs - Reads config and sends mail using 'SmtpClient'. 
+
+## Build and push Docker image
+- Built docker image using Visual Studio with docker support.
+- Published to Azure Container Registry (ACR).
+## Deploy to Azure ocntainer Instance (ACI).
+-Deploy to azure container and start the container using Azure CLI.
+-Ex: 
+az container create --resource-group new-grp --name cont001 --image azcontainerreg0001.azurecr.io/dockerapp:latest --registry-login-server azcontainerreg0001.azurecr.io 
+                    --registry-username <admin-username> --registry-password <admin-password> --ports 8080 --ip-address Public 
+                    --environment-variables ASPNETCORE_URLS="http://+:8080" 
+                    --protocol TCP --os-type Linux --cpu 1 --memory 1.5
+
 
 
 
