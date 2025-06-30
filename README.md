@@ -58,12 +58,12 @@ Recent updates follow Domain-Driven Design (DDD) principles and demonstrate SOLI
 
 -Ex: 
 **Push Docker Image to ACR**
--docker login azcontainerreg0001.azurecr.io/dockerapp:latest --username <acr-username> --password <acr-password>
--docker tag pharmaclinicalsuite azcontainerreg0001.azurecr.io/pharmaclinicalsuite:latest
--docker push azcontainerreg0001.azurecr.io/pharmaclinicalsuite:latest
+--docker login azcontainerreg0001.azurecr.io/dockerapp:latest --username <acr-username> --password <acr-password>
+--docker tag pharmaclinicalsuite azcontainerreg0001.azurecr.io/pharmaclinicalsuite:latest
+--docker push azcontainerreg0001.azurecr.io/pharmaclinicalsuite:latest
 
 **Create Container**
--az container create --resource-group new-grp --name cont001 --image azcontainerreg0001.azurecr.io/dockerapp:latest --registry-login-server azcontainerreg0001.azurecr.io 
+--az container create --resource-group new-grp --name cont001 --image azcontainerreg0001.azurecr.io/dockerapp:latest --registry-login-server azcontainerreg0001.azurecr.io 
                     --registry-username <admin-username> --registry-password <admin-password> --ports 8080 --ip-address Public 
                     --environment-variables ASPNETCORE_URLS="http://+:8080" 
                     --protocol TCP --os-type Linux --cpu 1 --memory 1.5
