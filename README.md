@@ -49,14 +49,18 @@ Recent updates follow Domain-Driven Design (DDD) principles and demonstrate SOLI
 -[SmtpEmailService.cs] https://github.com/nithyav2017/SourceCode/blob/Dotnet/PharmaClinicalSuite/Services/SmtpEmailService.cs - Reads config and sends mail using 'SmtpClient'. 
 
 ## Build and push Docker image
-- Built docker image using Visual Studio with docker support.
-- Published to Azure Container Registry (ACR).
+- Created custom **Docker netwrok** to enable seamless communication between .Net Core applcation and SQL Server.
+- Defined a multi-container configuration using docker-compose.yaml to run both containers under the same network with isolated services.
+- Applied EF Core migrations manually by updating Dockerfile for .Net core app  
+- Built Docker image using Docker compose and tagged and pushed directly into Azure Container Registry.
 ## Deploy to Azure ocntainer Instance (ACI).
--Deploy to azure container and start the container using Azure CLI.
-
+- Deployed the .Net Core app container to Azure Container Instances (ACI) using Azure CLI.
 
 -Ex: 
-
+## Push Docker Image to ACR
+docker login azcontainerreg0001.azurecr.io/dockerapp:latest --username <acr-username> --password <acr-password>
+docker tag pharmaclinicalsuite azcontainerreg0001.azurecr.io/pharmaclinicalsuite:latest
+docker push azcontainerreg0001.azurecr.io/pharmaclinicalsuite:latest
 
 az container create --resource-group new-grp --name cont001 --image azcontainerreg0001.azurecr.io/dockerapp:latest --registry-login-server azcontainerreg0001.azurecr.io 
                     --registry-username <admin-username> --registry-password <admin-password> --ports 8080 --ip-address Public 
