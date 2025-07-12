@@ -16,7 +16,7 @@ Recent updates follow Domain-Driven Design (DDD) principles and demonstrate SOLI
 - **Implemented MDM logic using Fuzz algorithm** to identify and eliminate duplicate records.
 - **Created multiple isolated DbContext instances** to enable parallel operations and prevent interaction conflicts.
 - **Implemented event-driven design using MediatR and Domain Events** to decouple business logic from infrastructure concerns and support scalable side-effect handling.
-- **Added JWT-based authentication using Node.js** 
+- **Added JWT-based authentication API using Node.js** 
 
 
 ---
