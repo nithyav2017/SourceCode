@@ -32,6 +32,7 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
+node_modules/
 # Ignore Visual Studio & VS Code settings
 .vs/
 *.vsidx
