@@ -6,10 +6,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>08b37b45-b441-4e39-b0f1-c6ea69a15b11</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <UseIIS>false</UseIIS>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="Application\Events\ScheduledVisit\SchduleVisitEvent.cs" />
+    <Compile Remove="Services\BlobServiceClient.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -28,6 +30,15 @@
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="AngularJS\" />
+    <Folder Include="Views\AngularJS\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\app\controllers\participants.controller.js" />
   </ItemGroup>
 
 </Project>

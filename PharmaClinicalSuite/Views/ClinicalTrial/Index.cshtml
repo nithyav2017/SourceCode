@@ -72,8 +72,10 @@
                 @{
                       encodedId = HashIdHelper.EncodeId(item.ParticipantId);
                 }
+                <p>Debug: Participant ID is @encodedId</p>
                 <td><a asp-action="Edit" asp-controller="ClinicalTrial" asp-route-id="@encodedId">Edit</a> </td> 
-                 <td><a asp-controller="Visit" asp-action="GetVisit" asp-route-participantId="@encodedId" />Manage Visits</td>
+              @*    <td><a asp-controller="Visit" asp-action="GetVisit" asp-route-participantId="@encodedId" />Manage Visits</td> *@
+                <td><a asp-controller="Visit" asp-action="ParticipantVisits" asp-route-participantId="@encodedId">Manage Visits</a></td>
             </tr>
             }
 

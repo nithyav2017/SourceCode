@@ -1,0 +1,377 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\sourcecode\\pharmaclinicalsuite\\application\\events\\scheduledvisit\\schedulevisitcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|solutionrelative:pharmaclinicalsuite\\application\\events\\scheduledvisit\\schedulevisitcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\sourcecode\\pharmaclinicalsuite\\controllers\\visitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|solutionrelative:pharmaclinicalsuite\\controllers\\visitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\sourcecode\\pharmaclinicalsuite\\data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|solutionrelative:pharmaclinicalsuite\\data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\sourcecode\\pharmaclinicalsuite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|solutionrelative:pharmaclinicalsuite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\sourcecode\\pharmaclinicalsuite\\domain\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|solutionrelative:pharmaclinicalsuite\\domain\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\sourcecode\\pharmaclinicalsuite\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|solutionrelative:pharmaclinicalsuite\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\sourcecode\\pharmaclinicalsuite\\domain\\dto\\visitdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|solutionrelative:pharmaclinicalsuite\\domain\\dto\\visitdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\sourcecode\\pharmaclinicalsuite\\pharmaclinicalsuite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|solutionrelative:pharmaclinicalsuite\\pharmaclinicalsuite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\sourcecode\\pharmaclinicalsuite\\pharmaclinicalsuite.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|solutionrelative:pharmaclinicalsuite\\pharmaclinicalsuite.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\sourcecode\\pharmaclinicalsuite\\data\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|solutionrelative:pharmaclinicalsuite\\data\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\sourcecode\\pharmaclinicalsuite\\domain\\models\\visit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|solutionrelative:pharmaclinicalsuite\\domain\\models\\visit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\sourcecode\\pharmaclinicalsuite\\api\\participantsvisitscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|solutionrelative:pharmaclinicalsuite\\api\\participantsvisitscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\sourcecode\\pharmaclinicalsuite\\wwwroot\\app\\services\\participant-service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|solutionrelative:pharmaclinicalsuite\\wwwroot\\app\\services\\participant-service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\sourcecode\\pharmaclinicalsuite\\wwwroot\\app\\app.module.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|solutionrelative:pharmaclinicalsuite\\wwwroot\\app\\app.module.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\sourcecode\\pharmaclinicalsuite\\wwwroot\\app\\controllers\\participants.controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|solutionrelative:pharmaclinicalsuite\\wwwroot\\app\\controllers\\participants.controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\sourcecode\\pharmaclinicalsuite\\wwwroot\\app\\views\\participant-visits.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|solutionrelative:pharmaclinicalsuite\\wwwroot\\app\\views\\participant-visits.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\sourcecode\\pharmaclinicalsuite\\views\\clinicaltrial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|solutionrelative:pharmaclinicalsuite\\views\\clinicaltrial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\sourcecode\\pharmaclinicalsuite\\views\\visit\\participantvisits.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|solutionrelative:pharmaclinicalsuite\\views\\visit\\participantvisits.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\sourcecode\\pharmaclinicalsuite\\controllers\\clinicaltrialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|solutionrelative:pharmaclinicalsuite\\controllers\\clinicaltrialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\sourcecode\\pharmaclinicalsuite\\application\\events\\scheduledvisit\\schedulevisiteventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|solutionrelative:pharmaclinicalsuite\\application\\events\\scheduledvisit\\schedulevisiteventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\sourcecode\\pharmaclinicalsuite\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|solutionrelative:pharmaclinicalsuite\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\sourcecode\\pharmaclinicalsuite\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{84460A4E-BC56-470C-9C14-260399522654}|PharmaClinicalSuite\\PharmaClinicalSuite.csproj|solutionrelative:pharmaclinicalsuite\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\Data\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "PharmaClinicalSuite\\Data\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\Data\\UnitOfWork.cs",
+              "RelativeToolTip": "PharmaClinicalSuite\\Data\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T15:58:17.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "PharmaClinicalSuite\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\Properties\\launchSettings.json",
+              "RelativeToolTip": "PharmaClinicalSuite\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-28T02:02:17.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PharmaClinicalSuite",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\PharmaClinicalSuite.csproj",
+              "RelativeDocumentMoniker": "PharmaClinicalSuite\\PharmaClinicalSuite.csproj",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\PharmaClinicalSuite.csproj",
+              "RelativeToolTip": "PharmaClinicalSuite\\PharmaClinicalSuite.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-28T01:43:28.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "participant-service.js",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\wwwroot\\app\\Services\\participant-service.js",
+              "RelativeDocumentMoniker": "PharmaClinicalSuite\\wwwroot\\app\\Services\\participant-service.js",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\wwwroot\\app\\Services\\participant-service.js",
+              "RelativeToolTip": "PharmaClinicalSuite\\wwwroot\\app\\Services\\participant-service.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-24T18:13:27.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VisitDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\Domain\\DTO\\VisitDTO.cs",
+              "RelativeDocumentMoniker": "PharmaClinicalSuite\\Domain\\DTO\\VisitDTO.cs",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\Domain\\DTO\\VisitDTO.cs",
+              "RelativeToolTip": "PharmaClinicalSuite\\Domain\\DTO\\VisitDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T17:45:21.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\Views\\ClinicalTrial\\Index.cshtml",
+              "RelativeDocumentMoniker": "PharmaClinicalSuite\\Views\\ClinicalTrial\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\Views\\ClinicalTrial\\Index.cshtml",
+              "RelativeToolTip": "PharmaClinicalSuite\\Views\\ClinicalTrial\\Index.cshtml",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAEgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-22T14:37:44.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "PharmaClinicalSuite\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "PharmaClinicalSuite\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-22T14:24:05.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ParticipantVisits.cshtml",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\Views\\Visit\\ParticipantVisits.cshtml",
+              "RelativeDocumentMoniker": "PharmaClinicalSuite\\Views\\Visit\\ParticipantVisits.cshtml",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\Views\\Visit\\ParticipantVisits.cshtml",
+              "RelativeToolTip": "PharmaClinicalSuite\\Views\\Visit\\ParticipantVisits.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T21:48:56.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "app.module.js",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\wwwroot\\app\\app.module.js",
+              "RelativeDocumentMoniker": "PharmaClinicalSuite\\wwwroot\\app\\app.module.js",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\wwwroot\\app\\app.module.js",
+              "RelativeToolTip": "PharmaClinicalSuite\\wwwroot\\app\\app.module.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-21T21:39:32.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "participant-visits.html",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\wwwroot\\app\\views\\participant-visits.html",
+              "RelativeDocumentMoniker": "PharmaClinicalSuite\\wwwroot\\app\\views\\participant-visits.html",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\wwwroot\\app\\views\\participant-visits.html",
+              "RelativeToolTip": "PharmaClinicalSuite\\wwwroot\\app\\views\\participant-visits.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-07-21T21:30:11.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "participants.controller.js",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\wwwroot\\app\\controllers\\participants.controller.js",
+              "RelativeDocumentMoniker": "PharmaClinicalSuite\\wwwroot\\app\\controllers\\participants.controller.js",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\wwwroot\\app\\controllers\\participants.controller.js",
+              "RelativeToolTip": "PharmaClinicalSuite\\wwwroot\\app\\controllers\\participants.controller.js",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-21T21:17:27.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PharmaClinicalSuite.csproj",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\PharmaClinicalSuite.csproj",
+              "RelativeDocumentMoniker": "PharmaClinicalSuite\\PharmaClinicalSuite.csproj",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\PharmaClinicalSuite.csproj",
+              "RelativeToolTip": "PharmaClinicalSuite\\PharmaClinicalSuite.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-21T20:38:37.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Visit.cs",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\Domain\\Models\\Visit.cs",
+              "RelativeDocumentMoniker": "PharmaClinicalSuite\\Domain\\Models\\Visit.cs",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\Domain\\Models\\Visit.cs",
+              "RelativeToolTip": "PharmaClinicalSuite\\Domain\\Models\\Visit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T20:07:56.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ScheduleVisitCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\Application\\Events\\ScheduledVisit\\ScheduleVisitCommandHandler.cs",
+              "RelativeDocumentMoniker": "PharmaClinicalSuite\\Application\\Events\\ScheduledVisit\\ScheduleVisitCommandHandler.cs",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\Application\\Events\\ScheduledVisit\\ScheduleVisitCommandHandler.cs",
+              "RelativeToolTip": "PharmaClinicalSuite\\Application\\Events\\ScheduledVisit\\ScheduleVisitCommandHandler.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T20:07:57.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ScheduleVisitEventHandler.cs",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\Application\\Events\\ScheduledVisit\\ScheduleVisitEventHandler.cs",
+              "RelativeDocumentMoniker": "PharmaClinicalSuite\\Application\\Events\\ScheduledVisit\\ScheduleVisitEventHandler.cs",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\Application\\Events\\ScheduledVisit\\ScheduleVisitEventHandler.cs",
+              "RelativeToolTip": "PharmaClinicalSuite\\Application\\Events\\ScheduledVisit\\ScheduleVisitEventHandler.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAEwBAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T20:07:57.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ClinicalTrialController.cs",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\Controllers\\ClinicalTrialController.cs",
+              "RelativeDocumentMoniker": "PharmaClinicalSuite\\Controllers\\ClinicalTrialController.cs",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\Controllers\\ClinicalTrialController.cs",
+              "RelativeToolTip": "PharmaClinicalSuite\\Controllers\\ClinicalTrialController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAEwBkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T20:52:27.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\Program.cs",
+              "RelativeDocumentMoniker": "PharmaClinicalSuite\\Program.cs",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\Program.cs",
+              "RelativeToolTip": "PharmaClinicalSuite\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T20:47:59.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\appsettings.json",
+              "RelativeDocumentMoniker": "PharmaClinicalSuite\\appsettings.json",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\appsettings.json",
+              "RelativeToolTip": "PharmaClinicalSuite\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-21T20:14:52.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VisitController.cs",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\Controllers\\VisitController.cs",
+              "RelativeDocumentMoniker": "PharmaClinicalSuite\\Controllers\\VisitController.cs",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\Controllers\\VisitController.cs",
+              "RelativeToolTip": "PharmaClinicalSuite\\Controllers\\VisitController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAcwC4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T18:35:47.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\Domain\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "PharmaClinicalSuite\\Domain\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\Domain\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "PharmaClinicalSuite\\Domain\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T18:35:20.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ParticipantsVisitsController.cs",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\API\\ParticipantsVisitsController.cs",
+              "RelativeDocumentMoniker": "PharmaClinicalSuite\\API\\ParticipantsVisitsController.cs",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\API\\ParticipantsVisitsController.cs",
+              "RelativeToolTip": "PharmaClinicalSuite\\API\\ParticipantsVisitsController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T18:32:50.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EFRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\Data\\EFRepository.cs",
+              "RelativeDocumentMoniker": "PharmaClinicalSuite\\Data\\EFRepository.cs",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\Data\\EFRepository.cs",
+              "RelativeToolTip": "PharmaClinicalSuite\\Data\\EFRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAMwDQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T18:15:43.796Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+﻿version: '3.8'
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver-instance
+    environment: 
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "Learning@12"
+    ports:
+      - "1433:1433"
+    networks:
+      - app-network
+  webapp:
+    build:
+       context: .
+       dockerfile: PharmaClinicalSuite/Dockerfile
+    container_name: pharmaclinicalsuite
+    ports:
+      - "5000:8080"
+    environment: 
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings_DefaultConnection: "Server=sqlser-instance,1433;Database=PharmaClinicalSuiteDB;User Id=sa;Password=Learning@12;"
+    depends_on:
+      - sqlserver
+    networks:
+      - app-network
+
+networks:
+  app-network: 

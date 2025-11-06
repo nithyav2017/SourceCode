@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div ng-controller="participantVisitsController as vm">
+        <h2>
+            {{vm.title}}
+        </h2>
+        <h3>Patient name: </h3>
+    </div>
+    
+    <!--<pre>{{ vm.visits | json }}</pre>-->
+
+    <table border="1">
+        <thead style="font-weight:bold; text-align:center" >
+            <td>Status</td>
+            <td>Notes</td>
+            <td>Scheduled Date</td>
+            <td>Visit Type</td>
+        </thead>
+        <tr ng-repeat="visit in vm.visits">
+            <td> {{visit.status}}</td>
+            <td>{{visit.notes}}</td>
+            <td>{{visit.scheduledDate}}</td>
+            <td>{{visit.visitType}}</td>
+        </tr>
+    </table>
+</body>
+</html>

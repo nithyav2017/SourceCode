@@ -461,10 +461,10 @@ C:\Users\nithy\OneDrive\Documentos\Nithya\DotNetCore\SourceCode\PharmaClinicalSu
 C:\Users\nithy\OneDrive\Documentos\Nithya\DotNetCore\SourceCode\PharmaClinicalSuite\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PharmaClinicalSuite.props
 C:\Users\nithy\OneDrive\Documentos\Nithya\DotNetCore\SourceCode\PharmaClinicalSuite\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PharmaClinicalSuite.props
 C:\Users\nithy\OneDrive\Documentos\Nithya\DotNetCore\SourceCode\PharmaClinicalSuite\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\nithy\OneDrive\Documentos\Nithya\DotNetCore\SourceCode\PharmaClinicalSuite\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\nithy\OneDrive\Documentos\Nithya\DotNetCore\SourceCode\PharmaClinicalSuite\obj\Debug\net8.0\PharmaCl.BDD5F9BB.Up2Date
 C:\Users\nithy\OneDrive\Documentos\Nithya\DotNetCore\SourceCode\PharmaClinicalSuite\obj\Debug\net8.0\PharmaClinicalSuite.dll
 C:\Users\nithy\OneDrive\Documentos\Nithya\DotNetCore\SourceCode\PharmaClinicalSuite\obj\Debug\net8.0\refint\PharmaClinicalSuite.dll
 C:\Users\nithy\OneDrive\Documentos\Nithya\DotNetCore\SourceCode\PharmaClinicalSuite\obj\Debug\net8.0\PharmaClinicalSuite.pdb
 C:\Users\nithy\OneDrive\Documentos\Nithya\DotNetCore\SourceCode\PharmaClinicalSuite\obj\Debug\net8.0\PharmaClinicalSuite.genruntimeconfig.cache
 C:\Users\nithy\OneDrive\Documentos\Nithya\DotNetCore\SourceCode\PharmaClinicalSuite\obj\Debug\net8.0\ref\PharmaClinicalSuite.dll
+C:\Users\nithy\OneDrive\Documentos\Nithya\DotNetCore\SourceCode\PharmaClinicalSuite\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "ContainingType": "PharmaClinicalSuite.API.Participantsvisits",
+    "Method": "GetVistists",
+    "RelativePath": "api/visits/{participantId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "participantId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PharmaClinicalSuite.API.Participantsvisits",
+    "Method": "GetParticipant",
+    "RelativePath": "api/visits/{participantId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "participantId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

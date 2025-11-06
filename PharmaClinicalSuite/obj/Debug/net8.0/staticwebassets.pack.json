@@ -5,8 +5,28 @@
       "PackagePath": "staticwebassets\\PharmaClinicalSuite.h05j4m7hw3.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\wwwroot\\Files\\CLINICAL TRIAL PARTICIPANT CONSENT FORM.docx",
+      "PackagePath": "staticwebassets\\Files\\CLINICAL TRIAL PARTICIPANT CONSENT FORM.docx"
+    },
+    {
       "Id": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\wwwroot\\Images\\clinicaltrials-banner.jpg",
       "PackagePath": "staticwebassets\\Images\\clinicaltrials-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\wwwroot\\app\\Services\\participant-service.js",
+      "PackagePath": "staticwebassets\\app\\Services\\participant-service.js"
+    },
+    {
+      "Id": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\wwwroot\\app\\app.module.js",
+      "PackagePath": "staticwebassets\\app\\app.module.js"
+    },
+    {
+      "Id": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\wwwroot\\app\\controllers\\participants.controller.js",
+      "PackagePath": "staticwebassets\\app\\controllers\\participants.controller.js"
+    },
+    {
+      "Id": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\wwwroot\\app\\views\\participant-visits.html",
+      "PackagePath": "staticwebassets\\app\\views\\participant-visits.html"
     },
     {
       "Id": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\wwwroot\\css\\site.css",
@@ -15,6 +35,18 @@
     {
       "Id": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\wwwroot\\js\\angular-route.min.js",
+      "PackagePath": "staticwebassets\\js\\angular-route.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\wwwroot\\js\\angular.min.js",
+      "PackagePath": "staticwebassets\\js\\angular.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\wwwroot\\js\\app.js",
+      "PackagePath": "staticwebassets\\js\\app.js"
     },
     {
       "Id": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\wwwroot\\js\\site.js",

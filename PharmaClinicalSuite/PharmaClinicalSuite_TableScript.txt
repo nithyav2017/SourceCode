@@ -1,0 +1,1 @@
+C:\Users\nithy\OneDrive\Documentos\Nithya\DotNetCore\SourceCode\PharmaClinicalSuite\obj\Debug\net8.0\uolkplg1.sql

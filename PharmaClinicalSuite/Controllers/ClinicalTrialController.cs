@@ -14,10 +14,7 @@ namespace PharmaClinicalSuite.Controllers
     public class ClinicalTrialController : Controller
     {
      //   private readonly ILogger _logger;
-        private readonly IDbContextFactory<PharmaClinicalSuiteContext> _dbcontext;
-
-     
-
+        private readonly IDbContextFactory<PharmaClinicalSuiteContext> _dbcontext;    
         public ClinicalTrialController(IDbContextFactory<PharmaClinicalSuiteContext> context )
         {
           //  _logger = logger;
