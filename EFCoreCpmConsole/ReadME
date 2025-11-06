@@ -1,4 +1,4 @@
-**EF Core and Central Package Management Demo**
+EF Core and Central Package Management Demo
 #Description:
 This project demonstrate how to use EntityFramework with Central Package Management (CPM) in a .NET console application.
 It includes:
