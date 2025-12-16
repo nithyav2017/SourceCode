@@ -79,9 +79,12 @@ var redisConnection = builder.Configuration.GetConnectionString("Redis");
 
 	[ref: https://github.com/nithyav2017/SourceCode/blob/Dotnet/UseCases/WebApplication/CodeSample/WebApplication/Services/Redis/RedisBackgroundService/CacheInvalidationSubscriber.cs]
 
-#Step 2:
+# Step 2:
 	Send message to Redis through a channel called 'Profile-Invalidate' , any Redis clients like backgroundservices that has subscribed
 to "Profile-Invalidate" will immediately receive message and IMemoryCache/IDistributedCache removed it from  `_memoryCache.Remove($"Profile_{userId}")`
+For the next fetch for same profile after update , it gets the updated record from DB and instead of showing the old record from 
+Redis.
+
 # Use In-MemoryCache To Cache in a single server :
 
 # Add In-Process Cache(In-MemoryCache) - if the caching has to be done in one server
@@ -93,17 +96,3 @@ instance.
 #SQL Trigger + External Notification (For external DB changes):
 	- Create SQL trigger on the Person.Person table to insert new row into a `ChangeLog` table .
 	- Use a background service for example Quartz.NET or Azure Function to monitor `ChangeLog` and publish to Redis
-
-
-	 
- 
-
-
-
-
-
-
-
-
-
-
