@@ -1,6 +1,14 @@
+wwwroot\app\app.module.js
+wwwroot\app\controllers\participants.controller.js
+wwwroot\app\Services\participant-service.js
+wwwroot\app\views\participant-visits.html
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\Files\CLINICAL TRIAL PARTICIPANT CONSENT FORM.docx
 wwwroot\Images\clinicaltrials-banner.jpg
+wwwroot\js\angular.min.js
+wwwroot\js\angular-route.min.js
+wwwroot\js\app.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

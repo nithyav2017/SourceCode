@@ -1,0 +1,12 @@
+C:\Users\nithy\OneDrive\Documentos\Nithya\DotNetCore\Scenarios\WebApplication\Shared.Entities\bin\Debug\net10.0\Shared.Entities.deps.json
+C:\Users\nithy\OneDrive\Documentos\Nithya\DotNetCore\Scenarios\WebApplication\Shared.Entities\bin\Debug\net10.0\Shared.Entities.dll
+C:\Users\nithy\OneDrive\Documentos\Nithya\DotNetCore\Scenarios\WebApplication\Shared.Entities\bin\Debug\net10.0\Shared.Entities.pdb
+C:\Users\nithy\OneDrive\Documentos\Nithya\DotNetCore\Scenarios\WebApplication\Shared.Entities\obj\Debug\net10.0\Shared.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nithy\OneDrive\Documentos\Nithya\DotNetCore\Scenarios\WebApplication\Shared.Entities\obj\Debug\net10.0\Shared.Entities.AssemblyInfoInputs.cache
+C:\Users\nithy\OneDrive\Documentos\Nithya\DotNetCore\Scenarios\WebApplication\Shared.Entities\obj\Debug\net10.0\Shared.Entities.AssemblyInfo.cs
+C:\Users\nithy\OneDrive\Documentos\Nithya\DotNetCore\Scenarios\WebApplication\Shared.Entities\obj\Debug\net10.0\Shared.Entities.csproj.CoreCompileInputs.cache
+C:\Users\nithy\OneDrive\Documentos\Nithya\DotNetCore\Scenarios\WebApplication\Shared.Entities\obj\Debug\net10.0\Shared.Entities.sourcelink.json
+C:\Users\nithy\OneDrive\Documentos\Nithya\DotNetCore\Scenarios\WebApplication\Shared.Entities\obj\Debug\net10.0\Shared.Entities.dll
+C:\Users\nithy\OneDrive\Documentos\Nithya\DotNetCore\Scenarios\WebApplication\Shared.Entities\obj\Debug\net10.0\refint\Shared.Entities.dll
+C:\Users\nithy\OneDrive\Documentos\Nithya\DotNetCore\Scenarios\WebApplication\Shared.Entities\obj\Debug\net10.0\Shared.Entities.pdb
+C:\Users\nithy\OneDrive\Documentos\Nithya\DotNetCore\Scenarios\WebApplication\Shared.Entities\obj\Debug\net10.0\ref\Shared.Entities.dll

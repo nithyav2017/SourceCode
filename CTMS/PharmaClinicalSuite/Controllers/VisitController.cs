@@ -40,9 +40,15 @@ namespace PharmaClinicalSuite.Controllers
             return View(visits);
         }
 
-       
+        public IActionResult ParticipantVisits(string participantId)
+        {
+            int? id = HashIdHelper.DecodeId(participantId);
+            ViewBag.ParticipantId = id;
+            return View();
+        }
 
-      
+
+
         [HttpPost]
         public async Task<IActionResult> ScheduleVisit([FromForm] Visit model)
         {
