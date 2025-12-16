@@ -24,7 +24,6 @@ builder.Services.AddScoped<IEmailService, SmtpEmailService>();
 
 builder.Services.AddMediatR(typeof(ScheduleVisitCommandHandler).Assembly);
 builder.Services.AddMediatR(typeof(ScheduleVisitEventHandler).Assembly);
-//builder.WebHost.UseUrls("http://*:80");
 
 var app = builder.Build();
 
@@ -45,6 +44,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=ClinicalTrial}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();

@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using PharmaClinicalSuite.Models.Interfaces;
+using System.Linq.Expressions;
 
 namespace PharmaClinicalSuite.Data
 {
@@ -29,5 +30,24 @@ namespace PharmaClinicalSuite.Data
 
         void IRepository<T>.Update(T entity)
             => _context.Update(entity);
+
+        //method for lookup by any field
+
+        /// <summary>
+        /// predicate is a filter condiation passed as a lambda expression that defines which records to retrieve from the database
+        /// it takes an object of type  T and returns a bool , it is used in the where condition like ParticipantId = 5 , 
+        /// Expression<Func<T, bool>> predicate can be used to compare any field of a type, ex: visit.visitdate , User.Role="admin"
+        /// </summary>
+        /// <param name="predicate"></param>
+        /// <returns></returns>
+        /// <exception cref="ArgumentNullException"></exception>
+
+        async Task<List<T?>> IRepository<T>.GetByConditionAsync(Expression<Func<T, bool>> predicate)
+        {
+            if (_context == null)
+                throw new ArgumentNullException("The context object is not initialized");
+
+            return await _context.Set<T>().Where(predicate).ToListAsync() as List<T?>;
+        }
     }
 }

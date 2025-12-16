@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\CTMS\\PharmaClinicalSuite\\PharmaClinicalSuite.csproj": {}
+    "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\PharmaClinicalSuite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\CTMS\\PharmaClinicalSuite\\PharmaClinicalSuite.csproj": {
+    "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\PharmaClinicalSuite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\CTMS\\PharmaClinicalSuite\\PharmaClinicalSuite.csproj",
+        "projectUniqueName": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\PharmaClinicalSuite.csproj",
         "projectName": "PharmaClinicalSuite",
-        "projectPath": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\CTMS\\PharmaClinicalSuite\\PharmaClinicalSuite.csproj",
+        "projectPath": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\PharmaClinicalSuite.csproj",
         "packagesPath": "C:\\Users\\nithy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\CTMS\\PharmaClinicalSuite\\obj\\",
+        "outputPath": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\PharmaClinicalSuite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
