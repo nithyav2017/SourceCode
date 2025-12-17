@@ -8,11 +8,9 @@ handle these protection manually.
 Because EF Core Identity Provider
   - Parameterized all SQL queries , so there won't be SQL injection risk.
   - Validations are enforced at server side with Data Annotations 
-  - Prevent mass and over-posting ( meaning , When an attacker creates a request with form values, .NET Core automatically maps those
-  -                                 fields into object properties. This can lead to over‑posting: the attacker could pass a property
-  -                                 value for the property IsAdmin = true, even though the client should not be able to set it. As a
-  -                                 result, the attacker could gain privileges and manipulate the database).
-
+  - Prevent mass and over-posting ( meaning , When an attacker creates a request with form values, .NET Core automatically        maps those fields into object properties. This can lead to over‑posting: the attacker could pass a property value for
+    the property IsAdmin = true, even though the client should not be able to set it. As a result, the attacker could gain        privileges and manipulate the database).
+     
 In addtion to this approach, 
   - Prevent XSS: Use razor generated HTML encoding (HTMLSanitizer).
   - Anti-Forgery Token Vlaidation: Always include @HTML.AntiForgeryToken() in forms and [ValidateAntiForgeryToken]
