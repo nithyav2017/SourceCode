@@ -1,9 +1,0 @@
-<Solution>
-  <Folder Name="/Data/">
-    <Project Path="CoreDataAccess/CoreDataAccess.csproj" />
-  </Folder>
-  <Folder Name="/Entities/">
-    <Project Path="Shared.Entities/Shared.Entities.csproj" />
-  </Folder>
-  <Project Path="WebApplication/WebApplications.csproj" />
-</Solution>

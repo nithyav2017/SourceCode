@@ -1,10 +1,13 @@
-using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using StackExchange.Redis;
 using WebApplication.Data;
 using WebApplication.Interfaces;
 using WebApplication.Services;
-using WebApplications.Services.Redis.BackgroundService;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using WebApplications.Interfaces;
+using WebApplications.Services;
+
 
 var builder = Microsoft.AspNetCore.Builder.WebApplication.CreateBuilder(args);
 
@@ -40,8 +43,19 @@ var redisConnection = builder.Configuration.GetConnectionString("Redis");
 builder.Services.AddSingleton<IConnectionMultiplexer>(sp => ConnectionMultiplexer.Connect(redisConnection!));
 
 builder.Services.AddScoped<IPersonService, PersonService>();
+builder.Services.AddScoped<IRegistrationService, RegistrationService>();
 builder.Services.AddMemoryCache();
 builder.Services.AddHostedService<WebApplications.Services.Redis.RedisBackgroundService.CacheInvalidationSubscriber>();
+
+
+builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
+{
+    options.Password.RequireDigit = true;
+    options.Password.RequiredLength = 8;
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequireUppercase = true;
+    options.Password.RequireLowercase = true;
+}).AddEntityFrameworkStores<AdventureworksContext>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

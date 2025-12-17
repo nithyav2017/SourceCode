@@ -1,70 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\",
+  "WorkspaceRootPath": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\SourceCode\\GitClone\\SourceCode\\UseCases\\WebApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4B46F3FD-E5F7-44FA-A2C5-810AF7A73C19}|WebApplication\\WebApplications.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\scenarios\\webapplication\\webapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4B46F3FD-E5F7-44FA-A2C5-810AF7A73C19}|WebApplication\\WebApplications.csproj|solutionrelative:webapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B46F3FD-E5F7-44FA-A2C5-810AF7A73C19}|WebApplication\\WebApplication.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\scenarios\\webapplication\\webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B46F3FD-E5F7-44FA-A2C5-810AF7A73C19}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\Controllers\\ProfileController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B46F3FD-E5F7-44FA-A2C5-810AF7A73C19}|WebApplication\\WebApplications.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\scenarios\\webapplication\\webapplication\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B46F3FD-E5F7-44FA-A2C5-810AF7A73C19}|WebApplication\\WebApplications.csproj|solutionrelative:webapplication\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\WebApplications.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B46F3FD-E5F7-44FA-A2C5-810AF7A73C19}|WebApplication\\WebApplications.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\scenarios\\webapplication\\webapplication\\webapplications.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4B46F3FD-E5F7-44FA-A2C5-810AF7A73C19}|WebApplication\\WebApplications.csproj|solutionrelative:webapplication\\webapplications.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\Services\\CacheInvalidationSubscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B46F3FD-E5F7-44FA-A2C5-810AF7A73C19}|WebApplication\\WebApplication.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\scenarios\\webapplication\\webapplication\\services\\cacheinvalidationsubscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B46F3FD-E5F7-44FA-A2C5-810AF7A73C19}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\services\\cacheinvalidationsubscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\Services\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B46F3FD-E5F7-44FA-A2C5-810AF7A73C19}|WebApplication\\WebApplication.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\scenarios\\webapplication\\webapplication\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B46F3FD-E5F7-44FA-A2C5-810AF7A73C19}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\Interfaces\\IUserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B46F3FD-E5F7-44FA-A2C5-810AF7A73C19}|WebApplication\\WebApplication.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\scenarios\\webapplication\\webapplication\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B46F3FD-E5F7-44FA-A2C5-810AF7A73C19}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EC548DB-C2F2-4FA4-88DD-4A8F2E1E8802}|CoreDataAccess\\CoreDataAccess.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\scenarios\\webapplication\\coredataaccess\\adventureworkscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EC548DB-C2F2-4FA4-88DD-4A8F2E1E8802}|CoreDataAccess\\CoreDataAccess.csproj|solutionrelative:coredataaccess\\adventureworkscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\DTO\\PersonDetailsDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{439CF084-AEE1-4B14-8B8C-E8147FAF382B}|Shared.Entities\\Shared.Entities.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\scenarios\\webapplication\\shared.entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{439CF084-AEE1-4B14-8B8C-E8147FAF382B}|Shared.Entities\\Shared.Entities.csproj|solutionrelative:shared.entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{439CF084-AEE1-4B14-8B8C-E8147FAF382B}|Shared.Entities\\Shared.Entities.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\scenarios\\webapplication\\shared.entities\\dto\\persondetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{439CF084-AEE1-4B14-8B8C-E8147FAF382B}|Shared.Entities\\Shared.Entities.csproj|solutionrelative:shared.entities\\dto\\persondetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\PersonPhone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{439CF084-AEE1-4B14-8B8C-E8147FAF382B}|Shared.Entities\\Shared.Entities.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\scenarios\\webapplication\\shared.entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{439CF084-AEE1-4B14-8B8C-E8147FAF382B}|Shared.Entities\\Shared.Entities.csproj|solutionrelative:shared.entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\EmailAddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{439CF084-AEE1-4B14-8B8C-E8147FAF382B}|Shared.Entities\\Shared.Entities.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\scenarios\\webapplication\\shared.entities\\personphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{439CF084-AEE1-4B14-8B8C-E8147FAF382B}|Shared.Entities\\Shared.Entities.csproj|solutionrelative:shared.entities\\personphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\BusinessEntityAddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{439CF084-AEE1-4B14-8B8C-E8147FAF382B}|Shared.Entities\\Shared.Entities.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\scenarios\\webapplication\\shared.entities\\emailaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{439CF084-AEE1-4B14-8B8C-E8147FAF382B}|Shared.Entities\\Shared.Entities.csproj|solutionrelative:shared.entities\\emailaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\Address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{439CF084-AEE1-4B14-8B8C-E8147FAF382B}|Shared.Entities\\Shared.Entities.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\scenarios\\webapplication\\shared.entities\\businessentityaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{439CF084-AEE1-4B14-8B8C-E8147FAF382B}|Shared.Entities\\Shared.Entities.csproj|solutionrelative:shared.entities\\businessentityaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\Shared.Entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{439CF084-AEE1-4B14-8B8C-E8147FAF382B}|Shared.Entities\\Shared.Entities.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\scenarios\\webapplication\\shared.entities\\shared.entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{439CF084-AEE1-4B14-8B8C-E8147FAF382B}|Shared.Entities\\Shared.Entities.csproj|solutionrelative:shared.entities\\shared.entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\CoreDataAccess\\AdventureworksContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EC548DB-C2F2-4FA4-88DD-4A8F2E1E8802}|CoreDataAccess\\CoreDataAccess.csproj|c:\\users\\nithy\\onedrive\\documentos\\nithya\\dotnetcore\\scenarios\\webapplication\\coredataaccess\\coredataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5EC548DB-C2F2-4FA4-88DD-4A8F2E1E8802}|CoreDataAccess\\CoreDataAccess.csproj|solutionrelative:coredataaccess\\coredataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\CoreDataAccess\\CoreDataAccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -81,208 +65,191 @@
               "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApplication\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\WebApplication\\appsettings.json",
               "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\appsettings.json",
-              "RelativeToolTip": "WebApplication\\appsettings.json",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAIwAkAAAAeAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\WebApplication\\appsettings.json",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-16T16:55:31.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProfileController.cs",
-              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\Controllers\\ProfileController.cs",
-              "RelativeDocumentMoniker": "WebApplication\\Controllers\\ProfileController.cs",
-              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\Controllers\\ProfileController.cs",
-              "RelativeToolTip": "WebApplication\\Controllers\\ProfileController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAgwDwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T16:52:51.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WebApplications",
-              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\WebApplications.csproj",
-              "RelativeDocumentMoniker": "WebApplication\\WebApplications.csproj",
-              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\WebApplications.csproj",
-              "RelativeToolTip": "WebApplication\\WebApplications.csproj",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-16T16:49:40.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CacheInvalidationSubscriber.cs",
-              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\Services\\CacheInvalidationSubscriber.cs",
-              "RelativeDocumentMoniker": "WebApplication\\Services\\CacheInvalidationSubscriber.cs",
-              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\Services\\CacheInvalidationSubscriber.cs",
-              "RelativeToolTip": "WebApplication\\Services\\CacheInvalidationSubscriber.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T16:41:38.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "WebApplication\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\Services\\UserService.cs",
-              "RelativeToolTip": "WebApplication\\Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T16:39:35.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "WebApplication\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "WebApplication\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T16:38:46.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-16T16:55:31.702Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\WebApplication\\Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\WebApplication\\Controllers\\ProfileController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T16:52:51.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebApplications.csproj",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\WebApplications.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\WebApplication\\WebApplications.csproj",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\WebApplications.csproj",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\WebApplication\\WebApplications.csproj",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-16T16:49:40.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CacheInvalidationSubscriber.cs",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\Services\\CacheInvalidationSubscriber.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\WebApplication\\Services\\CacheInvalidationSubscriber.cs",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\Services\\CacheInvalidationSubscriber.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\WebApplication\\Services\\CacheInvalidationSubscriber.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T16:41:38.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\WebApplication\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\Services\\UserService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\WebApplication\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T16:39:35.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\WebApplication\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\WebApplication\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T16:38:46.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\Program.cs",
-              "RelativeDocumentMoniker": "WebApplication\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\WebApplication\\Program.cs",
               "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\WebApplication\\Program.cs",
-              "RelativeToolTip": "WebApplication\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\WebApplication\\Program.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAEwBkAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T16:29:59.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PersonDetailsDto.cs",
-              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\DTO\\PersonDetailsDto.cs",
-              "RelativeDocumentMoniker": "Shared.Entities\\DTO\\PersonDetailsDto.cs",
-              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\DTO\\PersonDetailsDto.cs",
-              "RelativeToolTip": "Shared.Entities\\DTO\\PersonDetailsDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T16:27:55.273Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\User.cs",
-              "RelativeDocumentMoniker": "Shared.Entities\\User.cs",
-              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\User.cs",
-              "RelativeToolTip": "Shared.Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T16:27:50.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PersonPhone.cs",
-              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\PersonPhone.cs",
-              "RelativeDocumentMoniker": "Shared.Entities\\PersonPhone.cs",
-              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\PersonPhone.cs",
-              "RelativeToolTip": "Shared.Entities\\PersonPhone.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T16:27:45.851Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EmailAddress.cs",
-              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\EmailAddress.cs",
-              "RelativeDocumentMoniker": "Shared.Entities\\EmailAddress.cs",
-              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\EmailAddress.cs",
-              "RelativeToolTip": "Shared.Entities\\EmailAddress.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T16:27:41.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "BusinessEntityAddress.cs",
-              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\BusinessEntityAddress.cs",
-              "RelativeDocumentMoniker": "Shared.Entities\\BusinessEntityAddress.cs",
-              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\BusinessEntityAddress.cs",
-              "RelativeToolTip": "Shared.Entities\\BusinessEntityAddress.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T16:27:37.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Address.cs",
-              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\Address.cs",
-              "RelativeDocumentMoniker": "Shared.Entities\\Address.cs",
-              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\Address.cs",
-              "RelativeToolTip": "Shared.Entities\\Address.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T16:26:58.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Shared.Entities",
-              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\Shared.Entities.csproj",
-              "RelativeDocumentMoniker": "Shared.Entities\\Shared.Entities.csproj",
-              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\Shared.Entities.csproj",
-              "RelativeToolTip": "Shared.Entities\\Shared.Entities.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-16T16:26:01.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-16T16:29:59.869Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "PersonDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\DTO\\PersonDetailsDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\Shared.Entities\\DTO\\PersonDetailsDto.cs",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\DTO\\PersonDetailsDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\Shared.Entities\\DTO\\PersonDetailsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T16:27:55.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\User.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\Shared.Entities\\User.cs",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\User.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\Shared.Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T16:27:50.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PersonPhone.cs",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\PersonPhone.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\Shared.Entities\\PersonPhone.cs",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\PersonPhone.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\Shared.Entities\\PersonPhone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T16:27:45.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmailAddress.cs",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\EmailAddress.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\Shared.Entities\\EmailAddress.cs",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\EmailAddress.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\Shared.Entities\\EmailAddress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T16:27:41.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BusinessEntityAddress.cs",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\BusinessEntityAddress.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\Shared.Entities\\BusinessEntityAddress.cs",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\BusinessEntityAddress.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\Shared.Entities\\BusinessEntityAddress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T16:27:37.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\Address.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\Shared.Entities\\Address.cs",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\Address.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\Shared.Entities\\Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T16:26:58.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Shared.Entities.csproj",
+              "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\Shared.Entities.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\Shared.Entities\\Shared.Entities.csproj",
+              "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\Shared.Entities\\Shared.Entities.csproj",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\Shared.Entities\\Shared.Entities.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-16T16:26:01.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "AdventureworksContext.cs",
               "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\CoreDataAccess\\AdventureworksContext.cs",
-              "RelativeDocumentMoniker": "CoreDataAccess\\AdventureworksContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\CoreDataAccess\\AdventureworksContext.cs",
               "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\CoreDataAccess\\AdventureworksContext.cs",
-              "RelativeToolTip": "CoreDataAccess\\AdventureworksContext.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\CoreDataAccess\\AdventureworksContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T16:15:12.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-16T16:15:12.9Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "CoreDataAccess",
+              "Title": "CoreDataAccess.csproj",
               "DocumentMoniker": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\CoreDataAccess\\CoreDataAccess.csproj",
-              "RelativeDocumentMoniker": "CoreDataAccess\\CoreDataAccess.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\CoreDataAccess\\CoreDataAccess.csproj",
               "ToolTip": "C:\\Users\\nithy\\OneDrive\\Documentos\\Nithya\\DotNetCore\\Scenarios\\WebApplication\\CoreDataAccess\\CoreDataAccess.csproj",
-              "RelativeToolTip": "CoreDataAccess\\CoreDataAccess.csproj",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Scenarios\\WebApplication\\CoreDataAccess\\CoreDataAccess.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-16T16:13:09.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-16T16:13:09.466Z"
             }
           ]
         }

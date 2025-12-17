@@ -5,6 +5,9 @@ using StackExchange.Redis;
 using Shared.Entities;
 using Shared.Entities.DTO;
 using WebApplication.Interfaces;
+using Microsoft.AspNetCore.Identity;
+using WebApplications.Interfaces;
+using WebApplications.Utility;
 
 namespace WebApplication.Controllers
 {
@@ -16,13 +19,15 @@ namespace WebApplication.Controllers
        private IConnectionMultiplexer _redis;
        private readonly IMemoryCache _cache;
         private readonly ISubscriber _subscriber;
+    private IRegistrationService _registrationService;
 
-        public ProfileController(IPersonService userService ,IConnectionMultiplexer redis, IMemoryCache cache)
+        public ProfileController(IPersonService userService ,IConnectionMultiplexer redis, IMemoryCache cache, IRegistrationService registrationService)
         {
             _redis = redis;
             _userService = userService;
             _cache = cache;
             _subscriber = redis.GetSubscriber();
+            _registrationService = registrationService;
         }
 
         [HttpGet("{id}")]
@@ -51,10 +56,33 @@ namespace WebApplication.Controllers
 
             await _userService.SaveProfile(model);                     
             
-             await _subscriber.PublishAsync("Profile-Invalidate",userID.ToString()); 
+            await _subscriber.PublishAsync("Profile-Invalidate",userID.ToString()); 
             
              _cache.Remove($"Profile_{userID}");
+
             return Ok("Profile updated and cache invalidated"); 
         }
+        [HttpPost("RegisterUser")]
+      
+        public async Task<IActionResult>  UserRegistration(RegistrationDTO model)
+        {
+            if(!ModelState.IsValid) return BadRequest(ModelState);
+
+            
+            model.PasswordSalt = GenerateSalt.CreateSalt();
+
+            var user = new IdentityUser { UserName = model.EmailAddress, Email = model.EmailAddress };
+            
+            var hasher = new PasswordHasher<IdentityUser>();
+
+            user.PasswordHash = hasher.HashPassword(user, model.PasswordHash  );
+          
+            await _registrationService.CreateAsync(user,model);                     
+            
+            return Ok("User registered successfully");
+        }
+
+        
     }
+
 }

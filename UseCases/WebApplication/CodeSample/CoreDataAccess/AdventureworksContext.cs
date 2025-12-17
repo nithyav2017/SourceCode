@@ -11,6 +11,8 @@ namespace WebApplication.Data
         public DbSet<Person> Persons { get; set; }
         public DbSet<EmailAddress> EmailAddresses { get; set; }
         public DbSet<Shared.Entities.Address> Addresses { get; set; }
+        public DbSet<Shared.Entities.BusinessEntity> BusinessEntity { get; set; } 
+
 
         public AdventureworksContext(DbContextOptions<AdventureworksContext> options)
        : base(options)
@@ -20,6 +22,12 @@ namespace WebApplication.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Shared.Entities.AddressType>()
+                .ToTable("AddressType", "Person");
+            modelBuilder.Entity<BusinessEntity>()
+                .ToTable("BusinessEntity", "Person");
+            modelBuilder.Entity<Password>()
+                .ToTable("Password", "Person");
             modelBuilder.Entity< BusinessEntityAddress>()
                 .ToTable("BusinessEntityAddress", "Person");
             modelBuilder.Entity<PersonPhone>()
@@ -31,6 +39,10 @@ namespace WebApplication.Data
             modelBuilder.Entity<Address>()
                 .ToTable("Address", "Person");
 
+            modelBuilder.Entity<BusinessEntity>()
+                .HasKey(be => be.BusinessEntityID);
+                
+           
             // Person
             modelBuilder.Entity<Person>()
                 .HasKey(p => p.BusinessEntityID);
