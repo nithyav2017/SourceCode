@@ -1,6 +1,6 @@
 **UseCase**: Multi-server deployment loses sessions. Switch to SQL Server session state in web.config, handle timeouts in C#.
 
-#### Root Cause: 
+#### Problem Context: 
 The default In-Proc session in ASP.NET application stores session in the server's process memory. In the multi                server environment , user requests are routed through a load balancer to different servers.Since each server                  maintains its own isolated memory and the session data is not shared across the servers. 
              
 As a result,  if a user's subsequent request is handled by a different server than the one that originally                    created the session, the new server cannot find the session data in its memory and leading to session loss. For               example, user appears logged out .
