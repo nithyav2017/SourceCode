@@ -13,6 +13,8 @@ This will create ASPState database with necessary tables, Stored Procedures.
 
 Basic: 
     `aspnet_regsql.exe -S servername -E -ssadd` [uses ASPState and tempdb databases]
+
+    
 To persist: 
     `aspnet_regsql.exe -S servername -E -ssadd -sstype p` [uses ASPState database and persists the same session during SQL server restarts]
 
