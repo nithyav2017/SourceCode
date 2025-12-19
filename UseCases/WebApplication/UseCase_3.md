@@ -71,8 +71,10 @@ Create a action filter in the application .
         - SQL server deletes the session id when `timeout` reached.  There is no previous session in the database.So, 
           it creates New Session.
 
-  - however the `Cookie Header` is not null, it still retains the same SessionId. ASP.NET ignores this old/invalid SessionId from the
+  - However the `Cookie Header` is not null, it still retains the same SessionId. ASP.NET ignores this old/invalid SessionId from the
     cookie and generates new SessionId, then it sends this new Sessionid back to the browser via new Set-Cookie header.
          `if (HttpContext.Current.Request.Cookies["ASP.NET_SessionId"] != null 
           && HttpContext.Current.Session.IsNewSession)'
+
+    
   The above condition returns true and page is redirect to `Login`
