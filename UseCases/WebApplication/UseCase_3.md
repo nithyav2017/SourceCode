@@ -1,6 +1,6 @@
 **UseCase**: Multi-server deployment loses sessions. Switch to SQL Server session state in web.config, handle timeouts in C#.
 
-#### Root Casuse: 
+#### Root Cause: 
              The defualt In-Proc session in ASP.NET application stores session in the server's process memory. In the multi server 
              environment , user requests are routed through a load balancer to different servers.Since each server maintains its own
              isolated memory and the session data is not shared across the servers. 
@@ -43,7 +43,7 @@ Create a action filter in the application .
 
 `public class SessionExpireFilterAttribute : ActionFilterAttribute
 {
-    public override void OnActionExecuting(ActionExecutingContext filterContext)
+  public override void OnActionExecuting(ActionExecutingContext filterContext)
     {
         HttpContext ctx = HttpContext.Current;
 
