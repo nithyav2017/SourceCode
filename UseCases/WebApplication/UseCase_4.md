@@ -26,7 +26,7 @@ layer.
 upload the image to azure blob by calling UploadAsync method.
 
 - Once uploaded successfully  BlobClient returns ImageUrl ,Id and other meta data for that file for future reference.
-- These metadata will be saved to `AdventureWorks2022.Production.ProdctionPhoto` table through EFCore.
+- These metadata will be saved to `AdventureWorks2022.Production.ProductionPhoto` table through EFCore.
 
 #### Retrieve Image:  
 
